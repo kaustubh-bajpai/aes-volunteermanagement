@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notes and comments" section_id="e68a687fbe6519108717b199489ea574" sys_domain="global" table="x_snc_volunteeri_0_attendee" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attendee_notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+            <sys_id>268a687fc0651910d4cd92988db66d6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes and comments" display_value="Notes and comments" name="x_snc_volunteeri_0_attendee" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">e68a687fbe6519108717b199489ea574</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>organizer_notes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+            <sys_id>668a687fa8651910bd04ebdd716e596f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes and comments" display_value="Notes and comments" name="x_snc_volunteeri_0_attendee" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">e68a687fbe6519108717b199489ea574</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+            <sys_id>e28a687ff765191018b97d3dd521156f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">2e8a687ff665191095ef943821275570</sys_ui_formatter>
+            <sys_ui_section caption="Notes and comments" display_value="Notes and comments" name="x_snc_volunteeri_0_attendee" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">e68a687fbe6519108717b199489ea574</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes and comments</caption>
+            <header>false</header>
+            <name>x_snc_volunteeri_0_attendee</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e68a687fbe6519108717b199489ea574</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_volunteeri_0_attendee</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+            <sys_update_name>sys_ui_section_e68a687fbe6519108717b199489ea574</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">cfdaf9011b901110c342edb7b04bcb41</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

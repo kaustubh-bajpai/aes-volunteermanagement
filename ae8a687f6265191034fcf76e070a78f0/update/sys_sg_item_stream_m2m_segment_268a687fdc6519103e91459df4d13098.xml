@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="Upcoming Events Item Stream">2e8a687f14651910cdb78c2f1107889a</item_stream>
+        <segment display_value="Item Stream Segment">2a8a687f2d65191052f64bdc973f8198</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:18</sys_created_on>
+        <sys_id>268a687fdc6519103e91459df4d13098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_268a687fdc6519103e91459df4d13098</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:18</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

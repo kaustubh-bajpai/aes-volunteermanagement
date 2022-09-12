@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order/>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:51</sys_created_on>
+        <sys_id>e28a687f4b65191094e2d857ce58ce8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_e28a687f4b65191094e2d857ce58ce8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:51</sys_updated_on>
+        <target>view_group_04</target>
+        <ui_rule display_value="State is Processsing Request">2e8a687f6465191003de9db7e1b94f8e</ui_rule>
+        <value>{"BackgroundColor":"C3DDF0"}</value>
+    </sys_sg_ui_rule_action>
+</record_update>

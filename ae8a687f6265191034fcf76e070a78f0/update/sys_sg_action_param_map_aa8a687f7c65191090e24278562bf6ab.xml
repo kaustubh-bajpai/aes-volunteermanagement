@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit">ea8a687f5965191030e2aa010eaaafab</button>
+        <item_parameter display_value="Event Purpose">2a8a687fde65191070f72543622868ab</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:53</sys_created_on>
+        <sys_id>aa8a687f7c65191090e24278562bf6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2a8a687fde65191070f72543622868ab</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_aa8a687f7c65191090e24278562bf6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:53</sys_updated_on>
+        <ui_parameter display_value="Purpose">a28a687f0e65191047ab2752fb8877ac</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

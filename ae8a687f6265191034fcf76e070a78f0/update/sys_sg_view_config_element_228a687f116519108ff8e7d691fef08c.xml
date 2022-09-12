@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>All Events Copy View Config Element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:04</sys_created_on>
+        <sys_id>228a687f116519108ff8e7d691fef08c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Events Copy View Config Element</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_228a687f116519108ff8e7d691fef08c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:04</sys_updated_on>
+        <view_config display_value="All Events Copy View Config">2a8a687fee651910a89d005a518ead94</view_config>
+        <view_template_slot display_value="text_22">6a8a687f6c6519104faa7c1849e5c08b</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

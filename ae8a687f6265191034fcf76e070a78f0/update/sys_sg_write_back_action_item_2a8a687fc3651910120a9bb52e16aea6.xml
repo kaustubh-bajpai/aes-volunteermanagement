@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit Event</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:27</sys_created_on>
+        <sys_id>2a8a687fc3651910120a9bb52e16aea6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit Event</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_2a8a687fc3651910120a9bb52e16aea6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:27</sys_updated_on>
+        <table>x_snc_volunteeri_0_event</table>
+        <template>date_from={{Event Starts}}^capacity={{Event Capacity}}^date_to={{Event Ends}}^location={{Event Location}}^event_name={{Event Name}}^purpose={{Event Purpose}}^waitlist_size={{Event Waitlist size}}^event_reminder_date={{Event reminder date}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=2a8a687fc3651910120a9bb52e16aea6"/>
+</record_update>

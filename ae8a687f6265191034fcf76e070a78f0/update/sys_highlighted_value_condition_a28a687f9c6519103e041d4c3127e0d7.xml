@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition">
+    <sys_highlighted_value_condition action="INSERT_OR_UPDATE">
+        <color/>
+        <conditions table="x_snc_volunteeri_0_event">state=2^EQ<item display_value="Rescheduled" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <highlighted_value display_value="state">2a8a687fd765191010c471c9709cd2d7</highlighted_value>
+        <icon/>
+        <order>0</order>
+        <show_icon>true</show_icon>
+        <status>moderate</status>
+        <sys_class_name>sys_highlighted_value_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:59</sys_created_on>
+        <sys_id>a28a687f9c6519103e041d4c3127e0d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_highlighted_value_condition_a28a687f9c6519103e041d4c3127e0d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:59</sys_updated_on>
+        <value_override/>
+        <variant/>
+    </sys_highlighted_value_condition>
+</record_update>

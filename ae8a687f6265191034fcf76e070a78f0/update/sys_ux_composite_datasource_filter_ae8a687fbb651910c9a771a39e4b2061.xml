@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource_filter">
+    <sys_ux_composite_datasource_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_condition>stateIN1,2^date_to&gt;=javascript:gs.beginn</base_condition>
+        <condition table="x_snc_volunteeri_0_event">date_from&gt;=javascript:gs.beginningOfLastWeek()^EQ<item endquery="false" field="date_from" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.beginningOfLastWeek()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <datasource display_value="Event Registration all event card">228a687f60651910af8adecd2d977d62</datasource>
+        <datasource_table>x_snc_volunteeri_0_event</datasource_table>
+        <filter display_value="Date">6e8a687f8765191020047fe3a8d84661</filter>
+        <name>Date</name>
+        <sys_class_name>sys_ux_composite_datasource_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:40</sys_created_on>
+        <sys_id>ae8a687fbb651910c9a771a39e4b2061</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Date</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_filter_ae8a687fbb651910c9a771a39e4b2061</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:40</sys_updated_on>
+    </sys_ux_composite_datasource_filter>
+</record_update>

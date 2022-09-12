@@ -1,0 +1,2524 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This is a scheduled flow runs every 3 mins. This flow is responsible for processing all pending requests</description>
+        <internal_name>x_snc_volunteeri_0.event_registration_pr</internal_name>
+        <label_cache>[{"name":"593fa564-cbb9-44ea-a15f-586f2005734d.__dont_treat_as_error__","label":"18 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"593fa564-cbb9-44ea-a15f-586f2005734d.__action_status__","label":"18 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4e460fd-45a3-4f29-b844-ba8bf07e920c.__dont_treat_as_error__","label":"16 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4e460fd-45a3-4f29-b844-ba8bf07e920c.__action_status__","label":"16 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4720e003-8c42-4069-af66-6192c1160347.__dont_treat_as_error__","label":"15 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4720e003-8c42-4069-af66-6192c1160347.__action_status__","label":"15 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68cd7154-321c-4fb0-89fa-1586ad58432c.__dont_treat_as_error__","label":"14 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68cd7154-321c-4fb0-89fa-1586ad58432c.__action_status__","label":"14 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"252eb305-412c-4972-8d4b-c0e2f17c4d99.__dont_treat_as_error__","label":"12 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"252eb305-412c-4972-8d4b-c0e2f17c4d99.__action_status__","label":"12 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dab8ff35-b2b3-419a-8769-2ad197b1b721.__dont_treat_as_error__","label":"11 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dab8ff35-b2b3-419a-8769-2ad197b1b721.__action_status__","label":"11 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ad238b0a-9194-44df-83fd-ffb5eba9c84c.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ad238b0a-9194-44df-83fd-ffb5eba9c84c.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"160013f7-3742-442c-b8e5-156b04cc941b.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"160013f7-3742-442c-b8e5-156b04cc941b.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a21f8907-515d-493d-8c0b-88048c166895.__dont_treat_as_error__","label":"7 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a21f8907-515d-493d-8c0b-88048c166895.__action_status__","label":"7 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a423b2e2-7036-40f3-ada5-f3d0f0dd4f5f.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a423b2e2-7036-40f3-ada5-f3d0f0dd4f5f.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd21b77f-5642-4386-8b4f-7e0713c85575.__dont_treat_as_error__","label":"3 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd21b77f-5642-4386-8b4f-7e0713c85575.__action_status__","label":"3 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a179015-9a03-4201-a6e4-8f716e1f409c.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a179015-9a03-4201-a6e4-8f716e1f409c.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"593fa564-cbb9-44ea-a15f-586f2005734d.table_name","label":"18 - Update Record➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"593fa564-cbb9-44ea-a15f-586f2005734d.record","label":"18 - Update Record➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4e460fd-45a3-4f29-b844-ba8bf07e920c.table_name","label":"16 - Update Record➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4e460fd-45a3-4f29-b844-ba8bf07e920c.record","label":"16 - Update Record➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4720e003-8c42-4069-af66-6192c1160347.Count","label":"15 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4720e003-8c42-4069-af66-6192c1160347.Table","label":"15 - Look Up Records➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4720e003-8c42-4069-af66-6192c1160347.Records","label":"15 - Look Up Records➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68cd7154-321c-4fb0-89fa-1586ad58432c.table_name","label":"14 - Update Record➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68cd7154-321c-4fb0-89fa-1586ad58432c.record","label":"14 - Update Record➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"252eb305-412c-4972-8d4b-c0e2f17c4d99.table_name","label":"12 - Update Record➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"252eb305-412c-4972-8d4b-c0e2f17c4d99.record","label":"12 - Update Record➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dab8ff35-b2b3-419a-8769-2ad197b1b721.Count","label":"11 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dab8ff35-b2b3-419a-8769-2ad197b1b721.Table","label":"11 - Look Up Records➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dab8ff35-b2b3-419a-8769-2ad197b1b721.Records","label":"11 - Look Up Records➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ad238b0a-9194-44df-83fd-ffb5eba9c84c.table_name","label":"10 - Update Record➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ad238b0a-9194-44df-83fd-ffb5eba9c84c.record","label":"10 - Update Record➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlisted","label":"2 - For Each➛Event Record➛Waitlisted","reference":"","reference_display":"Waitlisted","type":"integer","base_type":"integer","parent_table_name":"x_snc_event_reg_event","column_name":"waitlisted"},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlist_size","label":"2 - For Each➛Event Record➛Waitlist size","reference":"","reference_display":"Waitlist size","type":"integer","base_type":"integer","parent_table_name":"x_snc_event_reg_event","column_name":"waitlist_size"},{"name":"9a179015-9a03-4201-a6e4-8f716e1f409c.Records","label":"1 - Look Up Records➛Event Records","reference":"x_snc_event_reg_event","reference_display":"Event","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a179015-9a03-4201-a6e4-8f716e1f409c.Table","label":"1 - Look Up Records➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a179015-9a03-4201-a6e4-8f716e1f409c.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4cd40b3-480f-48a8-a523-a5cb83d59b6f.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item","label":"2 - For Each➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"dd21b77f-5642-4386-8b4f-7e0713c85575.Records","label":"3 - Look Up Records➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd21b77f-5642-4386-8b4f-7e0713c85575.Table","label":"3 - Look Up Records➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd21b77f-5642-4386-8b4f-7e0713c85575.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item.sys_id","label":"2 - For Each➛Event Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_event_reg_event","column_name":"sys_id"},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item.capacity","label":"2 - For Each➛Event Record➛Capacity","reference":"","reference_display":"Capacity","type":"integer","base_type":"integer","parent_table_name":"x_snc_event_reg_event","column_name":"capacity"},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item.attendees","label":"2 - For Each➛Event Record➛Attendees","reference":"","reference_display":"Attendees","type":"integer","base_type":"integer","parent_table_name":"x_snc_event_reg_event","column_name":"attendees"},{"name":"358ae1bf-30f4-4a2a-aeca-f023f4ee462e.item","label":"4 - For Each➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a423b2e2-7036-40f3-ada5-f3d0f0dd4f5f.record","label":"6 - Update Record➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a423b2e2-7036-40f3-ada5-f3d0f0dd4f5f.table_name","label":"6 - Update Record➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a21f8907-515d-493d-8c0b-88048c166895.Records","label":"7 - Look Up Records➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a21f8907-515d-493d-8c0b-88048c166895.Table","label":"7 - Look Up Records➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a21f8907-515d-493d-8c0b-88048c166895.Count","label":"7 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"160013f7-3742-442c-b8e5-156b04cc941b.record","label":"8 - Update Record➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"160013f7-3742-442c-b8e5-156b04cc941b.table_name","label":"8 - Update Record➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>668a687f9a6519107bbfb0af49fd02d4</master_snapshot>
+        <name>Event Registration Process flow</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>a28a687f73651910c6c9bd69b195e5d4</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e28a687fa165191013794139b037d0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Registration Process flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_hub_flow_e28a687fa165191013794139b037d0d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e28a687fa165191013794139b037d0d4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e28a687fa165191013794139b037d0d4"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period>1970-01-01 00:03:00</run_period>
+        <run_start/>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a28a687f73651910c6c9bd69b195e5d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <time/>
+        <timer_type>1</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:a28a687f73651910c6c9bd69b195e5d4^sys_idNOT IN2a8a687fd8651910a21c168816461bd3"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:a28a687f73651910c6c9bd69b195e5d4</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="">maint</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period>1970-01-01 00:03:00</run_period>
+        <run_start/>
+        <run_time/>
+        <run_type>periodically</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('a28a687f73651910c6c9bd69b195e5d4');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2a8a687fd8651910a21c168816461bd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">a28a687f73651910c6c9bd69b195e5d4</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e28a687fa165191013794139b037d0d4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e28a687fa165191013794139b037d0d4^sys_idNOT INaa8a687f2c65191037c02a7f15a371d3"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Runs every 3 minutes</comment>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <name>Repeat</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>aa8a687f2c65191037c02a7f15a371d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>repeat</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aa8a687f2c65191037c02a7f15a371d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>aa8a687f2c65191037c02a7f15a371d3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2e8a687f13651910ed4fec5b131e02d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>1970-01-01 00:03:00</value>
+        <variable display_value="Repeat">1c5f4d94c32222002841b63b12d3aeb3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_f63f0d94c32222002841b63b12d3aeed^id=aa8a687f2c65191037c02a7f15a371d3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e28a687fa165191013794139b037d0d4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e28a687fa165191013794139b037d0d4^sys_idNOT IN6e8a687f8d65191012ed4722a2f586d3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e28a687fa165191013794139b037d0d4</id>
+        <name>Event Registration Process</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6e8a687f8d65191012ed4722a2f586d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6e8a687f8d65191012ed4722a2f586d3"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e28a687fa165191013794139b037d0d4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e28a687fa165191013794139b037d0d4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e28a687fa165191013794139b037d0d4"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e28a687fa165191013794139b037d0d4^sys_idNOT IN228a687f13651910adc12cbc81b774d1,268a687f66651910e8c209ddb6384ad2,668a687f6e651910f8efb15e906aead3,668a687f7e65191027fc52115353bdd1,6a8a687f09651910633327f0261e70d1,6a8a687fe86519100d8feb1deeed04d2,a28a687fa4651910d2bd645debb3bfd1,a28a687fea6519106a310141376f71d3,ae8a687f15651910c7dc11fb698015d2,e28a687f2c651910fe543244979978d2,ea8a687f6165191027c425c93e132ad3,ee8a687f14651910f592a67ef4c4d3d3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>18</order>
+        <parent_ui_id>78326d70-f7a3-4a35-8ad3-81a32d0abdb2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>228a687f13651910adc12cbc81b774d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>593fa564-cbb9-44ea-a15f-586f2005734d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=228a687f13651910adc12cbc81b774d1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>228a687f13651910adc12cbc81b774d1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2a8a687f2a651910ca78f33f165577d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>attendee_status=on_hold</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>228a687f13651910adc12cbc81b774d1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ee8a687f786519101ebd0752a36c04d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=228a687f13651910adc12cbc81b774d1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>228a687f13651910adc12cbc81b774d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6e8a687f63651910530444b1835096d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{358ae1bf-30f4-4a2a-aeca-f023f4ee462e.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=228a687f13651910adc12cbc81b774d1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=228a687f13651910adc12cbc81b774d1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>14</order>
+        <parent_ui_id>bb9b45fd-b6ca-437a-a1a1-e30970bda7ae</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>268a687f66651910e8c209ddb6384ad2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>68cd7154-321c-4fb0-89fa-1586ad58432c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=268a687f66651910e8c209ddb6384ad2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>268a687f66651910e8c209ddb6384ad2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>228a687f27651910c867c0634c522dd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>attendee_status=waitlisted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>268a687f66651910e8c209ddb6384ad2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ae8a687f4665191048956f8c1c3392d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=268a687f66651910e8c209ddb6384ad2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>268a687f66651910e8c209ddb6384ad2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a28a687fde65191019e8fdef03607fd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{358ae1bf-30f4-4a2a-aeca-f023f4ee462e.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=268a687f66651910e8c209ddb6384ad2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=268a687f66651910e8c209ddb6384ad2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>10</order>
+        <parent_ui_id>48dfd891-0497-48ab-a3d0-649ed41678e8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>668a687f6e651910f8efb15e906aead3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>ad238b0a-9194-44df-83fd-ffb5eba9c84c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=668a687f6e651910f8efb15e906aead3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>668a687f6e651910f8efb15e906aead3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>aa8a687fb76519106cb44eb72b5532d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>attendee_status=waitlisted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>668a687f6e651910f8efb15e906aead3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e68a687f626519105e02d612f5cf07d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=668a687f6e651910f8efb15e906aead3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>668a687f6e651910f8efb15e906aead3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a68a687f12651910abb81865f59482d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{358ae1bf-30f4-4a2a-aeca-f023f4ee462e.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=668a687f6e651910f8efb15e906aead3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=668a687f6e651910f8efb15e906aead3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>11</order>
+        <parent_ui_id>48dfd891-0497-48ab-a3d0-649ed41678e8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>668a687f7e65191027fc52115353bdd1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>dab8ff35-b2b3-419a-8769-2ad197b1b721</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=668a687f7e65191027fc52115353bdd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>668a687f7e65191027fc52115353bdd1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>aa8a687fe96519109c5ffbca5cd255d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>668a687f7e65191027fc52115353bdd1</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e68a687f886519109789b444474d45d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value/>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=668a687f7e65191027fc52115353bdd1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>668a687f7e65191027fc52115353bdd1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ea8a687f936519101874a94c830526d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>attendee_status=waitlisted^event_name={{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>668a687f7e65191027fc52115353bdd1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>628a687fd9651910f5cf91652fbec1d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlist_size}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=668a687f7e65191027fc52115353bdd1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=668a687f7e65191027fc52115353bdd1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Look all published/re-scheduled events</comment>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6a8a687f09651910633327f0261e70d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>9a179015-9a03-4201-a6e4-8f716e1f409c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a8a687f09651910633327f0261e70d1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a8a687f09651910633327f0261e70d1</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>268a687f746519100bec0a20659afcd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>number</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a8a687f09651910633327f0261e70d1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a68a687fdc651910a9072364614131d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_event</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=6a8a687f09651910633327f0261e70d1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a8a687f09651910633327f0261e70d1^sys_idNOT IN2a8a687f5b65191056afc9cefb1205d1"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>conditions</input_name>
+        <instance>6a8a687f09651910633327f0261e70d1</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"conditions":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n**\n**Requires GlideRecord encodedQuery response, example:\n**\"active\u003dtrue^short_descriptionSTARTSWITHtest\";\n*/\nreturn \"date_from\u003e\u003djavascript:gs.beginningOfToday()^stateIN1,2\";"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2a8a687f5b65191056afc9cefb1205d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a8a687f09651910633327f0261e70d1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>16</order>
+        <parent_ui_id>bb9b45fd-b6ca-437a-a1a1-e30970bda7ae</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6a8a687fe86519100d8feb1deeed04d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>c4e460fd-45a3-4f29-b844-ba8bf07e920c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a8a687fe86519100d8feb1deeed04d2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a8a687fe86519100d8feb1deeed04d2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2e8a687fda651910754a954b5e8257d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6a8a687fe86519100d8feb1deeed04d2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6a8a687fe86519100d8feb1deeed04d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6e8a687f116519101ce50c97a2d38bd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6a8a687fe86519100d8feb1deeed04d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>668a687f886519108704428505dc24d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>waitlisted={{4720e003-8c42-4069-af66-6192c1160347.Count}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a8a687fe86519100d8feb1deeed04d2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a8a687fe86519100d8feb1deeed04d2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>7</order>
+        <parent_ui_id>b427a19d-8a79-4822-bd31-e060ac58f5d3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a28a687fa4651910d2bd645debb3bfd1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>a21f8907-515d-493d-8c0b-88048c166895</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a28a687fa4651910d2bd645debb3bfd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a28a687fa4651910d2bd645debb3bfd1</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ae8a687f3e651910cba44fd3c0185ad0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value/>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a28a687fa4651910d2bd645debb3bfd1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e28a687f7a65191078840469033cc6d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a28a687fa4651910d2bd645debb3bfd1</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ea8a687f846519101ca53d082da196d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>number</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a28a687fa4651910d2bd645debb3bfd1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a28a687fa4651910d2bd645debb3bfd1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e68a687f95651910e51536b5c795d7d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>attendee_status=confirmed^event_name={{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>a28a687fa4651910d2bd645debb3bfd1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2e8a687f2c651910b1cbafdb8017c4d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.capacity}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a28a687fa4651910d2bd645debb3bfd1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a28a687fa4651910d2bd645debb3bfd1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>8</order>
+        <parent_ui_id>b427a19d-8a79-4822-bd31-e060ac58f5d3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a28a687fea6519106a310141376f71d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>160013f7-3742-442c-b8e5-156b04cc941b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a28a687fea6519106a310141376f71d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a28a687fea6519106a310141376f71d3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a68a687f65651910b0528e210ad72ed3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a28a687fea6519106a310141376f71d3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a28a687fea6519106a310141376f71d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>228a687f21651910ea3eea30e06e24d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a28a687fea6519106a310141376f71d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>268a687fe7651910d5a295cb5a09edd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>attendees={{a21f8907-515d-493d-8c0b-88048c166895.Count}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a28a687fea6519106a310141376f71d3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a28a687fea6519106a310141376f71d3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>6</order>
+        <parent_ui_id>b427a19d-8a79-4822-bd31-e060ac58f5d3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ae8a687f15651910c7dc11fb698015d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>a423b2e2-7036-40f3-ada5-f3d0f0dd4f5f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ae8a687f15651910c7dc11fb698015d2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ae8a687f15651910c7dc11fb698015d2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2a8a687fdd651910f872258c83d0e0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ae8a687f15651910c7dc11fb698015d2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ea8a687fe46519101127a1d8cfbee1d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>attendee_status=confirmed</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ae8a687f15651910c7dc11fb698015d2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ae8a687f15651910c7dc11fb698015d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ee8a687f816519105655530d4595bfd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{358ae1bf-30f4-4a2a-aeca-f023f4ee462e.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ae8a687f15651910c7dc11fb698015d2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ae8a687f15651910c7dc11fb698015d2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>12</order>
+        <parent_ui_id>48dfd891-0497-48ab-a3d0-649ed41678e8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e28a687f2c651910fe543244979978d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>252eb305-412c-4972-8d4b-c0e2f17c4d99</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e28a687f2c651910fe543244979978d2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e28a687f2c651910fe543244979978d2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2e8a687f466519101cccdb7baf64e2d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e28a687f2c651910fe543244979978d2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e28a687f2c651910fe543244979978d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6e8a687f2665191037525083ac81e0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e28a687f2c651910fe543244979978d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>628a687f746519101f729e59a55145d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>waitlisted={{dab8ff35-b2b3-419a-8769-2ad197b1b721.Count}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e28a687f2c651910fe543244979978d2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e28a687f2c651910fe543244979978d2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>15</order>
+        <parent_ui_id>bb9b45fd-b6ca-437a-a1a1-e30970bda7ae</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ea8a687f6165191027c425c93e132ad3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>4720e003-8c42-4069-af66-6192c1160347</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ea8a687f6165191027c425c93e132ad3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea8a687f6165191027c425c93e132ad3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>628a687f71651910314023be26d101d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea8a687f6165191027c425c93e132ad3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ae8a687f576519106a8d642ac8b5d1d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>number</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea8a687f6165191027c425c93e132ad3</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e28a687f9665191072a3fb75980876d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>100000</value>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ea8a687f6165191027c425c93e132ad3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ea8a687f6165191027c425c93e132ad3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ee8a687f67651910a394330d4bd89fd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>attendee_status=waitlisted^event_name={{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea8a687f6165191027c425c93e132ad3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ea8a687f6165191027c425c93e132ad3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Look for all pending attendees</comment>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <order>3</order>
+        <parent_ui_id>ee2aee8b-bda9-44d9-a905-778f6f21e179</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ee8a687f14651910f592a67ef4c4d3d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:46</sys_updated_on>
+        <ui_id>dd21b77f-5642-4386-8b4f-7e0713c85575</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ee8a687f14651910f592a67ef4c4d3d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ee8a687f14651910f592a67ef4c4d3d3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>228a687f296519102461aa63ea0489d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ee8a687f14651910f592a67ef4c4d3d3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e68a687f0e6519102ac57c4b15c92dd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>number</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ee8a687f14651910f592a67ef4c4d3d3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ee8a687f14651910f592a67ef4c4d3d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6a8a687f5e651910bf7e48a426edefd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>attendee_status=pending_registration^event_name={{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ee8a687f14651910f592a67ef4c4d3d3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ee8a687f14651910f592a67ef4c4d3d3"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e28a687fa165191013794139b037d0d4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e28a687fa165191013794139b037d0d4^sys_idNOT IN228a687fba65191099422d2c49fd0ad0,a68a687f18651910ba1acff576d82ad0,aa8a687f19651910e78d3380c9afaad0,e28a687f946519100ffc61c8aceb51d0,e68a687fa0651910499d3b4a226eaecf,ea8a687fcd6519103d936cff4cf553cf"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">268a687fe86519103ce59892027316d0</block>
+        <comment/>
+        <connected_to>b427a19d-8a79-4822-bd31-e060ac58f5d3</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>358ae1bf-30f4-4a2a-aeca-f023f4ee462e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>228a687fba65191099422d2c49fd0ad0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>bb9b45fd-b6ca-437a-a1a1-e30970bda7ae</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=228a687fba65191099422d2c49fd0ad0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>228a687fba65191099422d2c49fd0ad0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a28a687f93651910b77c64513d1e42d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>Waitlistsize is -1</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=228a687fba65191099422d2c49fd0ad0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>228a687fba65191099422d2c49fd0ad0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ee8a687f61651910faa64ed0e257cccf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlist_size}}=-1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=228a687fba65191099422d2c49fd0ad0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=228a687fba65191099422d2c49fd0ad0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6a8a687f57651910c25ae91c0eff35d0</block>
+        <comment>Capacity and waitlist is not available</comment>
+        <connected_to>b427a19d-8a79-4822-bd31-e060ac58f5d3</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>17</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>358ae1bf-30f4-4a2a-aeca-f023f4ee462e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a68a687f18651910ba1acff576d82ad0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>78326d70-f7a3-4a35-8ad3-81a32d0abdb2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a68a687f18651910ba1acff576d82ad0"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a68a687f18651910ba1acff576d82ad0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a68a687f18651910ba1acff576d82ad0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">668a687fe7651910d79b02eca42f77d0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>358ae1bf-30f4-4a2a-aeca-f023f4ee462e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>aa8a687f19651910e78d3380c9afaad0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>b427a19d-8a79-4822-bd31-e060ac58f5d3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=aa8a687f19651910e78d3380c9afaad0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>aa8a687f19651910e78d3380c9afaad0</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ae8a687f5565191062f6a0c9db939ccf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>Capacity is available </value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=aa8a687f19651910e78d3380c9afaad0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>aa8a687f19651910e78d3380c9afaad0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>628a687f36651910e5f82c9eea3eb6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.attendees}}&lt;{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.capacity}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=aa8a687f19651910e78d3380c9afaad0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aa8a687f19651910e78d3380c9afaad0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6e8a687f5d65191090dbb71ea66e7ccf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e28a687f946519100ffc61c8aceb51d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>ee2aee8b-bda9-44d9-a905-778f6f21e179</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e28a687f946519100ffc61c8aceb51d0"/>
+    <sys_element_mapping action="delete_multiple" query="id=e28a687f946519100ffc61c8aceb51d0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e28a687f946519100ffc61c8aceb51d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>aa8a687f9d6519104e1c04c0b87a62cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{9a179015-9a03-4201-a6e4-8f716e1f409c.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e28a687f946519100ffc61c8aceb51d0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e28a687f946519100ffc61c8aceb51d0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a68a687f1e651910decefd1283628dcf</block>
+        <comment/>
+        <connected_to>b427a19d-8a79-4822-bd31-e060ac58f5d3</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>358ae1bf-30f4-4a2a-aeca-f023f4ee462e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e68a687fa0651910499d3b4a226eaecf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>48dfd891-0497-48ab-a3d0-649ed41678e8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e68a687fa0651910499d3b4a226eaecf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e68a687fa0651910499d3b4a226eaecf</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>668a687f5865191099c041d45e5891cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>Waitlistsize is available</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e68a687fa0651910499d3b4a226eaecf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>e68a687fa0651910499d3b4a226eaecf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2a8a687f1f65191036d1b3adbc5f28cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlist_size}}&gt;{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlisted}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e68a687fa0651910499d3b4a226eaecf"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e68a687fa0651910499d3b4a226eaecf"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2e8a687f64651910760cf05cde8eeccf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ee2aee8b-bda9-44d9-a905-778f6f21e179</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ea8a687fcd6519103d936cff4cf553cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>358ae1bf-30f4-4a2a-aeca-f023f4ee462e</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ea8a687fcd6519103d936cff4cf553cf"/>
+    <sys_element_mapping action="delete_multiple" query="id=ea8a687fcd6519103d936cff4cf553cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>ea8a687fcd6519103d936cff4cf553cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>268a687f986519107ca2c4057c9855cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{dd21b77f-5642-4386-8b4f-7e0713c85575.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ea8a687fcd6519103d936cff4cf553cf"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea8a687fcd6519103d936cff4cf553cf"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e28a687fa165191013794139b037d0d4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e28a687fa165191013794139b037d0d4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e28a687fa165191013794139b037d0d4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e28a687fa165191013794139b037d0d4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e28a687fa165191013794139b037d0d4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e28a687fa165191013794139b037d0d4"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e28a687fa165191013794139b037d0d4^sys_idNOT IN6a8a687f686519104bc5446ac43752cf"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"6a8a687f686519104bc5446ac43752cf","name":"plan","plan_signature":null}}</plan>
+        <plan_id>e28a687fa165191013794139b037d0d4</plan_id>
+        <snapshot>aa9a24771ba11910c58ec91d0d4bcbbf</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a8a687f686519104bc5446ac43752cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <trigger display_value="">a28a687f73651910c6c9bd69b195e5d4</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e28a687fa165191013794139b037d0d4"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This is a scheduled flow runs every 3 mins. This flow is responsible for processing all pending requests</description>
+        <internal_name>x_snc_volunteeri_0.event_registration_pr</internal_name>
+        <label_cache>[{"name":"593fa564-cbb9-44ea-a15f-586f2005734d.__dont_treat_as_error__","label":"18 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"593fa564-cbb9-44ea-a15f-586f2005734d.__action_status__","label":"18 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4e460fd-45a3-4f29-b844-ba8bf07e920c.__dont_treat_as_error__","label":"16 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4e460fd-45a3-4f29-b844-ba8bf07e920c.__action_status__","label":"16 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4720e003-8c42-4069-af66-6192c1160347.__dont_treat_as_error__","label":"15 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4720e003-8c42-4069-af66-6192c1160347.__action_status__","label":"15 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68cd7154-321c-4fb0-89fa-1586ad58432c.__dont_treat_as_error__","label":"14 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68cd7154-321c-4fb0-89fa-1586ad58432c.__action_status__","label":"14 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"252eb305-412c-4972-8d4b-c0e2f17c4d99.__dont_treat_as_error__","label":"12 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"252eb305-412c-4972-8d4b-c0e2f17c4d99.__action_status__","label":"12 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dab8ff35-b2b3-419a-8769-2ad197b1b721.__dont_treat_as_error__","label":"11 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dab8ff35-b2b3-419a-8769-2ad197b1b721.__action_status__","label":"11 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ad238b0a-9194-44df-83fd-ffb5eba9c84c.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ad238b0a-9194-44df-83fd-ffb5eba9c84c.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"160013f7-3742-442c-b8e5-156b04cc941b.__dont_treat_as_error__","label":"8 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"160013f7-3742-442c-b8e5-156b04cc941b.__action_status__","label":"8 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a21f8907-515d-493d-8c0b-88048c166895.__dont_treat_as_error__","label":"7 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a21f8907-515d-493d-8c0b-88048c166895.__action_status__","label":"7 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a423b2e2-7036-40f3-ada5-f3d0f0dd4f5f.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a423b2e2-7036-40f3-ada5-f3d0f0dd4f5f.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd21b77f-5642-4386-8b4f-7e0713c85575.__dont_treat_as_error__","label":"3 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd21b77f-5642-4386-8b4f-7e0713c85575.__action_status__","label":"3 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a179015-9a03-4201-a6e4-8f716e1f409c.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a179015-9a03-4201-a6e4-8f716e1f409c.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"593fa564-cbb9-44ea-a15f-586f2005734d.table_name","label":"18 - Update Record➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"593fa564-cbb9-44ea-a15f-586f2005734d.record","label":"18 - Update Record➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4e460fd-45a3-4f29-b844-ba8bf07e920c.table_name","label":"16 - Update Record➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4e460fd-45a3-4f29-b844-ba8bf07e920c.record","label":"16 - Update Record➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4720e003-8c42-4069-af66-6192c1160347.Count","label":"15 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4720e003-8c42-4069-af66-6192c1160347.Table","label":"15 - Look Up Records➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4720e003-8c42-4069-af66-6192c1160347.Records","label":"15 - Look Up Records➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68cd7154-321c-4fb0-89fa-1586ad58432c.table_name","label":"14 - Update Record➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68cd7154-321c-4fb0-89fa-1586ad58432c.record","label":"14 - Update Record➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"252eb305-412c-4972-8d4b-c0e2f17c4d99.table_name","label":"12 - Update Record➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"252eb305-412c-4972-8d4b-c0e2f17c4d99.record","label":"12 - Update Record➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dab8ff35-b2b3-419a-8769-2ad197b1b721.Count","label":"11 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dab8ff35-b2b3-419a-8769-2ad197b1b721.Table","label":"11 - Look Up Records➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dab8ff35-b2b3-419a-8769-2ad197b1b721.Records","label":"11 - Look Up Records➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ad238b0a-9194-44df-83fd-ffb5eba9c84c.table_name","label":"10 - Update Record➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ad238b0a-9194-44df-83fd-ffb5eba9c84c.record","label":"10 - Update Record➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlisted","label":"2 - For Each➛Event Record➛Waitlisted","reference":"","reference_display":"Waitlisted","type":"integer","base_type":"integer","parent_table_name":"x_snc_event_reg_event","column_name":"waitlisted"},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlist_size","label":"2 - For Each➛Event Record➛Waitlist size","reference":"","reference_display":"Waitlist size","type":"integer","base_type":"integer","parent_table_name":"x_snc_event_reg_event","column_name":"waitlist_size"},{"name":"9a179015-9a03-4201-a6e4-8f716e1f409c.Records","label":"1 - Look Up Records➛Event Records","reference":"x_snc_event_reg_event","reference_display":"Event","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a179015-9a03-4201-a6e4-8f716e1f409c.Table","label":"1 - Look Up Records➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9a179015-9a03-4201-a6e4-8f716e1f409c.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4cd40b3-480f-48a8-a523-a5cb83d59b6f.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item","label":"2 - For Each➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"dd21b77f-5642-4386-8b4f-7e0713c85575.Records","label":"3 - Look Up Records➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd21b77f-5642-4386-8b4f-7e0713c85575.Table","label":"3 - Look Up Records➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dd21b77f-5642-4386-8b4f-7e0713c85575.Count","label":"3 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item.sys_id","label":"2 - For Each➛Event Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_event_reg_event","column_name":"sys_id"},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item.capacity","label":"2 - For Each➛Event Record➛Capacity","reference":"","reference_display":"Capacity","type":"integer","base_type":"integer","parent_table_name":"x_snc_event_reg_event","column_name":"capacity"},{"name":"ee2aee8b-bda9-44d9-a905-778f6f21e179.item.attendees","label":"2 - For Each➛Event Record➛Attendees","reference":"","reference_display":"Attendees","type":"integer","base_type":"integer","parent_table_name":"x_snc_event_reg_event","column_name":"attendees"},{"name":"358ae1bf-30f4-4a2a-aeca-f023f4ee462e.item","label":"4 - For Each➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a423b2e2-7036-40f3-ada5-f3d0f0dd4f5f.record","label":"6 - Update Record➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a423b2e2-7036-40f3-ada5-f3d0f0dd4f5f.table_name","label":"6 - Update Record➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a21f8907-515d-493d-8c0b-88048c166895.Records","label":"7 - Look Up Records➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a21f8907-515d-493d-8c0b-88048c166895.Table","label":"7 - Look Up Records➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a21f8907-515d-493d-8c0b-88048c166895.Count","label":"7 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"160013f7-3742-442c-b8e5-156b04cc941b.record","label":"8 - Update Record➛Event Record","reference":"x_snc_event_reg_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"160013f7-3742-442c-b8e5-156b04cc941b.table_name","label":"8 - Update Record➛Event Table","reference":"x_snc_event_reg_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Event Registration Process flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Event Registration Process flow">e28a687fa165191013794139b037d0d4</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>668a687f9a6519107bbfb0af49fd02d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=668a687f9a6519107bbfb0af49fd02d4^sys_idNOT IN228a687ff2651910acbda3917030fdcf"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Runs every 3 minutes</comment>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <name>Repeat</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>228a687ff2651910acbda3917030fdcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>repeat</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=228a687ff2651910acbda3917030fdcf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>228a687ff2651910acbda3917030fdcf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a28a687f0165191097120ec3362137cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>1970-01-01 00:03:00</value>
+        <variable display_value="Repeat">1c5f4d94c32222002841b63b12d3aeb3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_f63f0d94c32222002841b63b12d3aeed^id=228a687ff2651910acbda3917030fdcf"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=668a687f9a6519107bbfb0af49fd02d4^sys_idNOT INee8a687f53651910dcf8197c2c8cb9ce"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>668a687f9a6519107bbfb0af49fd02d4</id>
+        <name>Event Registration Process flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ee8a687f53651910dcf8197c2c8cb9ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ee8a687f53651910dcf8197c2c8cb9ce"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=668a687f9a6519107bbfb0af49fd02d4^sys_idNOT IN268a687f5a651910cb087e47e8e51bce,268a687f6b65191097209afa7d4b49cc,2a8a687fd365191062a9e314df60b4cd,2e8a687fc26519103a72efac8c437bce,628a687f106519105056023570167dcc,628a687f2f6519100192f73807e189ce,6a8a687f086519102b0ba0fe49966bcc,6e8a687faa651910de9aba84619ac2ce,6e8a687fe16519103e414de08ba779cd,a28a687faf6519108865eda3527dd7cd,e68a687f8e651910c1adbf91f0311dcc,ea8a687fc165191096396dd3a7fac1cd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment>Look all published/re-scheduled events</comment>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>268a687f5a651910cb087e47e8e51bce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>9a179015-9a03-4201-a6e4-8f716e1f409c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=268a687f5a651910cb087e47e8e51bce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>268a687f5a651910cb087e47e8e51bce</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a28a687f43651910827b21ac9aee5ece</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_event</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>268a687f5a651910cb087e47e8e51bce</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ae8a687f34651910c89838b0eac9bfcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>number</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=268a687f5a651910cb087e47e8e51bce"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=268a687f5a651910cb087e47e8e51bce^sys_idNOT INe28a687f89651910535acea53ea29bce"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>conditions</input_name>
+        <instance>268a687f5a651910cb087e47e8e51bce</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"conditions":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n**\n**Requires GlideRecord encodedQuery response, example:\n**\"active\u003dtrue^short_descriptionSTARTSWITHtest\";\n*/\nreturn \"date_from\u003e\u003djavascript:gs.beginningOfToday()^stateIN1,2\";"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e28a687f89651910535acea53ea29bce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=268a687f5a651910cb087e47e8e51bce"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>8</order>
+        <parent_ui_id>b427a19d-8a79-4822-bd31-e060ac58f5d3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>268a687f6b65191097209afa7d4b49cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>160013f7-3742-442c-b8e5-156b04cc941b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=268a687f6b65191097209afa7d4b49cc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>268a687f6b65191097209afa7d4b49cc</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e28a687fba651910fb537a0a7e1ee6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=268a687f6b65191097209afa7d4b49cc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>268a687f6b65191097209afa7d4b49cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>228a687f5f65191010a2a84424b0afcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>268a687f6b65191097209afa7d4b49cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>668a687fba65191035805c1c4bc4e1cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>attendees={{a21f8907-515d-493d-8c0b-88048c166895.Count}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=268a687f6b65191097209afa7d4b49cc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=268a687f6b65191097209afa7d4b49cc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>18</order>
+        <parent_ui_id>78326d70-f7a3-4a35-8ad3-81a32d0abdb2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2a8a687fd365191062a9e314df60b4cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>593fa564-cbb9-44ea-a15f-586f2005734d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2a8a687fd365191062a9e314df60b4cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2a8a687fd365191062a9e314df60b4cd</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>268a687f046519102aeab559afa007cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2a8a687fd365191062a9e314df60b4cd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6e8a687f986519109eb07f1f291050cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>attendee_status=on_hold</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2a8a687fd365191062a9e314df60b4cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2a8a687fd365191062a9e314df60b4cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>aa8a687f79651910b32bdf7f339387cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{358ae1bf-30f4-4a2a-aeca-f023f4ee462e.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2a8a687fd365191062a9e314df60b4cd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2a8a687fd365191062a9e314df60b4cd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>7</order>
+        <parent_ui_id>b427a19d-8a79-4822-bd31-e060ac58f5d3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2e8a687fc26519103a72efac8c437bce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>a21f8907-515d-493d-8c0b-88048c166895</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2e8a687fc26519103a72efac8c437bce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2e8a687fc26519103a72efac8c437bce</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6a8a687fd2651910dc7626b7f4bca7ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2e8a687fc26519103a72efac8c437bce</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a68a687f436519100602bd903b841bce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>number</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2e8a687fc26519103a72efac8c437bce</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e28a687f92651910a2a64a36521458cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value/>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2e8a687fc26519103a72efac8c437bce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>2e8a687fc26519103a72efac8c437bce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ea8a687f856519106b2717f70d2c5cce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>attendee_status=confirmed^event_name={{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>2e8a687fc26519103a72efac8c437bce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2a8a687f10651910c89009f9de2257ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.capacity}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2e8a687fc26519103a72efac8c437bce"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2e8a687fc26519103a72efac8c437bce"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>16</order>
+        <parent_ui_id>bb9b45fd-b6ca-437a-a1a1-e30970bda7ae</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>628a687f106519105056023570167dcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>c4e460fd-45a3-4f29-b844-ba8bf07e920c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=628a687f106519105056023570167dcc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>628a687f106519105056023570167dcc</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6e8a687f6365191010d9210b5a4987cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=628a687f106519105056023570167dcc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>628a687f106519105056023570167dcc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2e8a687f21651910ffab1e1c955ecccb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>628a687f106519105056023570167dcc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6a8a687f01651910d7a03990bf87a9cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>waitlisted={{4720e003-8c42-4069-af66-6192c1160347.Count}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=628a687f106519105056023570167dcc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=628a687f106519105056023570167dcc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>11</order>
+        <parent_ui_id>48dfd891-0497-48ab-a3d0-649ed41678e8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>628a687f2f6519100192f73807e189ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>dab8ff35-b2b3-419a-8769-2ad197b1b721</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=628a687f2f6519100192f73807e189ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>628a687f2f6519100192f73807e189ce</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>228a687f92651910b609cfcc583820ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>628a687f2f6519100192f73807e189ce</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e68a687f066519103ff8006c4dd849cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value/>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=628a687f2f6519100192f73807e189ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>628a687f2f6519100192f73807e189ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ee8a687fa9651910df4d696a8d00b0cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>attendee_status=waitlisted^event_name={{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>max_results</field>
+        <id>628a687f2f6519100192f73807e189ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>aa8a687ff66519102c0e526085f1d8cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlist_size}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=628a687f2f6519100192f73807e189ce"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=628a687f2f6519100192f73807e189ce"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>12</order>
+        <parent_ui_id>48dfd891-0497-48ab-a3d0-649ed41678e8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6a8a687f086519102b0ba0fe49966bcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>252eb305-412c-4972-8d4b-c0e2f17c4d99</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a8a687f086519102b0ba0fe49966bcc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a8a687f086519102b0ba0fe49966bcc</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2e8a687f4a6519100f6576bc43606bcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_event</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6a8a687f086519102b0ba0fe49966bcc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6a8a687f086519102b0ba0fe49966bcc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a28a687f9d651910a9dc24d0993aa3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6a8a687f086519102b0ba0fe49966bcc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a68a687f426519109d77f1440a1045cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>waitlisted={{dab8ff35-b2b3-419a-8769-2ad197b1b721.Count}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a8a687f086519102b0ba0fe49966bcc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a8a687f086519102b0ba0fe49966bcc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>15</order>
+        <parent_ui_id>bb9b45fd-b6ca-437a-a1a1-e30970bda7ae</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6e8a687faa651910de9aba84619ac2ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>4720e003-8c42-4069-af66-6192c1160347</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e8a687faa651910de9aba84619ac2ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8a687faa651910de9aba84619ac2ce</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>628a687f20651910feee4ee04d9fe3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>100000</value>
+        <variable display_value="Max Results">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8a687faa651910de9aba84619ac2ce</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>aa8a687fca651910aff76e63b2b07cce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8a687faa651910de9aba84619ac2ce</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ae8a687fdf6519100c49a3169548f8ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>number</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e8a687faa651910de9aba84619ac2ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>6e8a687faa651910de9aba84619ac2ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e68a687fbe651910b1fbd3e58d23d9ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>attendee_status=waitlisted^event_name={{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e8a687faa651910de9aba84619ac2ce"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e8a687faa651910de9aba84619ac2ce"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>6</order>
+        <parent_ui_id>b427a19d-8a79-4822-bd31-e060ac58f5d3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6e8a687fe16519103e414de08ba779cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>a423b2e2-7036-40f3-ada5-f3d0f0dd4f5f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e8a687fe16519103e414de08ba779cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8a687fe16519103e414de08ba779cd</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>668a687f676519106c6d10c412611cce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8a687fe16519103e414de08ba779cd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ee8a687f64651910d39d770984d11bcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>attendee_status=confirmed</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e8a687fe16519103e414de08ba779cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6e8a687fe16519103e414de08ba779cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2e8a687f1d6519101df36cdccf6540cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{358ae1bf-30f4-4a2a-aeca-f023f4ee462e.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e8a687fe16519103e414de08ba779cd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e8a687fe16519103e414de08ba779cd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment>Look for all pending attendees</comment>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>3</order>
+        <parent_ui_id>ee2aee8b-bda9-44d9-a905-778f6f21e179</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a28a687faf6519108865eda3527dd7cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>dd21b77f-5642-4386-8b4f-7e0713c85575</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a28a687faf6519108865eda3527dd7cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a28a687faf6519108865eda3527dd7cd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>668a687fab65191040626e88ad5ac6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>number</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a28a687faf6519108865eda3527dd7cd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e28a687f8f65191011f0defab60c1bcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a28a687faf6519108865eda3527dd7cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a28a687faf6519108865eda3527dd7cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>228a687f6f651910d70961cd5652c0cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>attendee_status=pending_registration^event_name={{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a28a687faf6519108865eda3527dd7cd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a28a687faf6519108865eda3527dd7cd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>14</order>
+        <parent_ui_id>bb9b45fd-b6ca-437a-a1a1-e30970bda7ae</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e68a687f8e651910c1adbf91f0311dcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>68cd7154-321c-4fb0-89fa-1586ad58432c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e68a687f8e651910c1adbf91f0311dcc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e68a687f8e651910c1adbf91f0311dcc</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ae8a687fa965191088b14e81acb0e0cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e68a687f8e651910c1adbf91f0311dcc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ea8a687f97651910ee923f87a01973cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>attendee_status=waitlisted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e68a687f8e651910c1adbf91f0311dcc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e68a687f8e651910c1adbf91f0311dcc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2a8a687f3f65191013d154db47e060cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{358ae1bf-30f4-4a2a-aeca-f023f4ee462e.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e68a687f8e651910c1adbf91f0311dcc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e68a687f8e651910c1adbf91f0311dcc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <order>10</order>
+        <parent_ui_id>48dfd891-0497-48ab-a3d0-649ed41678e8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ea8a687fc165191096396dd3a7fac1cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>ad238b0a-9194-44df-83fd-ffb5eba9c84c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ea8a687fc165191096396dd3a7fac1cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea8a687fc165191096396dd3a7fac1cd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>628a687ff76519102cb4395005c657cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>attendee_status=waitlisted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ea8a687fc165191096396dd3a7fac1cd</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a68a687fdd65191040a00f595409f2cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ea8a687fc165191096396dd3a7fac1cd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ea8a687fc165191096396dd3a7fac1cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>6a8a687f2b651910774dafef756265cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{358ae1bf-30f4-4a2a-aeca-f023f4ee462e.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea8a687fc165191096396dd3a7fac1cd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ea8a687fc165191096396dd3a7fac1cd"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=668a687f9a6519107bbfb0af49fd02d4^sys_idNOT IN628a687f0e651910ad2862a2ce41fbcb,a28a687f60651910c5aef3fbc0bdc1cb,ae8a687f936519106b81f570100e3ccb,e68a687f6c65191069b20389744e25cb,ea8a687f1d651910444c9ce6d8a081cb,ee8a687f2a65191017b1f72b846fd8ca"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6e8a687f5d65191090dbb71ea66e7ccf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>628a687f0e651910ad2862a2ce41fbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>ee2aee8b-bda9-44d9-a905-778f6f21e179</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=628a687f0e651910ad2862a2ce41fbcb"/>
+    <sys_element_mapping action="delete_multiple" query="id=628a687f0e651910ad2862a2ce41fbcb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>628a687f0e651910ad2862a2ce41fbcb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>228a687f396519105faa6540cfdebccb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{9a179015-9a03-4201-a6e4-8f716e1f409c.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=628a687f0e651910ad2862a2ce41fbcb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=628a687f0e651910ad2862a2ce41fbcb"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">268a687fe86519103ce59892027316d0</block>
+        <comment/>
+        <connected_to>b427a19d-8a79-4822-bd31-e060ac58f5d3</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>358ae1bf-30f4-4a2a-aeca-f023f4ee462e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a28a687f60651910c5aef3fbc0bdc1cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>bb9b45fd-b6ca-437a-a1a1-e30970bda7ae</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a28a687f60651910c5aef3fbc0bdc1cb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a28a687f60651910c5aef3fbc0bdc1cb</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>268a687f6665191014acfc1c23a8d1cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>Waitlistsize is -1</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a28a687f60651910c5aef3fbc0bdc1cb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>a28a687f60651910c5aef3fbc0bdc1cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e28a687f21651910d37aa1b654342fcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlist_size}}=-1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a28a687f60651910c5aef3fbc0bdc1cb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a28a687f60651910c5aef3fbc0bdc1cb"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a68a687f1e651910decefd1283628dcf</block>
+        <comment/>
+        <connected_to>b427a19d-8a79-4822-bd31-e060ac58f5d3</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>358ae1bf-30f4-4a2a-aeca-f023f4ee462e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ae8a687f936519106b81f570100e3ccb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>48dfd891-0497-48ab-a3d0-649ed41678e8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ae8a687f936519106b81f570100e3ccb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ae8a687f936519106b81f570100e3ccb</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>a68a687fc8651910fd736629ab24d1cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>Waitlistsize is available</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ae8a687f936519106b81f570100e3ccb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ae8a687f936519106b81f570100e3ccb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>2a8a687f29651910da0e5a11f0026acb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlist_size}}&gt;{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.waitlisted}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ae8a687f936519106b81f570100e3ccb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ae8a687f936519106b81f570100e3ccb"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">668a687fe7651910d79b02eca42f77d0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>358ae1bf-30f4-4a2a-aeca-f023f4ee462e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>e68a687f6c65191069b20389744e25cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>b427a19d-8a79-4822-bd31-e060ac58f5d3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e68a687f6c65191069b20389744e25cb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e68a687f6c65191069b20389744e25cb</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ee8a687f39651910f011ee74e4b6aacb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <value>Capacity is available </value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e68a687f6c65191069b20389744e25cb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>e68a687f6c65191069b20389744e25cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>aa8a687fa6651910562ce6a8221478cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.attendees}}&lt;{{ee2aee8b-bda9-44d9-a905-778f6f21e179.item.capacity}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e68a687f6c65191069b20389744e25cb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e68a687f6c65191069b20389744e25cb"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2e8a687f64651910760cf05cde8eeccf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ee2aee8b-bda9-44d9-a905-778f6f21e179</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ea8a687f1d651910444c9ce6d8a081cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>358ae1bf-30f4-4a2a-aeca-f023f4ee462e</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ea8a687f1d651910444c9ce6d8a081cb"/>
+    <sys_element_mapping action="delete_multiple" query="id=ea8a687f1d651910444c9ce6d8a081cb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>ea8a687f1d651910444c9ce6d8a081cb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>668a687f286519103bb8d94b41f64dcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{dd21b77f-5642-4386-8b4f-7e0713c85575.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ea8a687f1d651910444c9ce6d8a081cb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea8a687f1d651910444c9ce6d8a081cb"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6a8a687f57651910c25ae91c0eff35d0</block>
+        <comment>Capacity and waitlist is not available</comment>
+        <connected_to>b427a19d-8a79-4822-bd31-e060ac58f5d3</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Event Registration Process flow">668a687f9a6519107bbfb0af49fd02d4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>17</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>358ae1bf-30f4-4a2a-aeca-f023f4ee462e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:39</sys_created_on>
+        <sys_id>ee8a687f2a65191017b1f72b846fd8ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:39</sys_updated_on>
+        <ui_id>78326d70-f7a3-4a35-8ad3-81a32d0abdb2</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ee8a687f2a65191017b1f72b846fd8ca"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ee8a687f2a65191017b1f72b846fd8ca"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ee8a687f2a65191017b1f72b846fd8ca"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_668a687f9a6519107bbfb0af49fd02d4"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>e28a687fa165191013794139b037d0d4</sys_id>
+        <latest_snapshot>668a687f9a6519107bbfb0af49fd02d4</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch4b-07-19-2022_08-09-2022_1837.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_snc_volunteeri_0_attendee</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen/>
+        <item_view/>
+        <name>Upcoming events Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:01</sys_created_on>
+        <sys_id>2a8a687fe365191067d80191c7585b99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Upcoming events Main Item</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_master_item_2a8a687fe365191067d80191c7585b99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:01</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Upcoming Events View Config">ee8a687fa2651910df850c89eb99e994</view_config>
+    </sys_sg_master_item>
+</record_update>

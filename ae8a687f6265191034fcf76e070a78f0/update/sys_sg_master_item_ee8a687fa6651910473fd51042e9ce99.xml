@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_snc_volunteeri_0_attendee</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Waitlist">ae8a687f686519101a1117e59d6b22a1</embedded_screen>
+        <item_view/>
+        <name>Waitlist Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:47</sys_created_on>
+        <sys_id>ee8a687fa6651910473fd51042e9ce99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Waitlist Main Item</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_master_item_ee8a687fa6651910473fd51042e9ce99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:47</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Waitlist View Config">228a687fa5651910fba3d48662cfd095</view_config>
+    </sys_sg_master_item>
+</record_update>

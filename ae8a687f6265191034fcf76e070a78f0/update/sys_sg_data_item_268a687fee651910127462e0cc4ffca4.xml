@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Attendees Data Item</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition table="x_snc_volunteeri_0_attendee">^ORDERBYattendee_name<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="attendee_name"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:24</sys_created_on>
+        <sys_id>268a687fee651910127462e0cc4ffca4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attendees Data Item</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_data_item_268a687fee651910127462e0cc4ffca4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:24</sys_updated_on>
+        <table>x_snc_volunteeri_0_attendee</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=268a687fee651910127462e0cc4ffca4"/>
+</record_update>

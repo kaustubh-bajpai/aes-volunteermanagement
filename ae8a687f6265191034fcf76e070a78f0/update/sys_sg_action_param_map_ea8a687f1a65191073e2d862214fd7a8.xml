@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Create Volunteering Event">ae8a687f7d651910c4a7188d54cf9dab</button>
+        <item_parameter display_value="EventLocation">628a687fa0651910b8e428b4cb6222a9</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:58</sys_created_on>
+        <sys_id>ea8a687f1a65191073e2d862214fd7a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>628a687fa0651910b8e428b4cb6222a9</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_ea8a687f1a65191073e2d862214fd7a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:58</sys_updated_on>
+        <ui_parameter display_value="Event location">2e8a687fb8651910f05809a5e40469a8</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
