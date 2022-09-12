@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Stores sys_id for default image in Attachment table. </description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_volunteeri_0.event_default_img</name>
+        <read_roles/>
+        <suffix>event_default_img</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:24</sys_created_on>
+        <sys_id>228a687fc5651910e36ea03e0c39c7bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_volunteeri_0.event_default_img</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_properties_228a687fc5651910e36ea03e0c39c7bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:24</sys_updated_on>
+        <type>string</type>
+        <value>e68a687f7f6519105e12d1c150ee45ed</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=228a687fc5651910e36ea03e0c39c7bc"/>
+</record_update>

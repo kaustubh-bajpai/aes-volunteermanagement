@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Create Volunteering Event">ae8a687f7d651910c4a7188d54cf9dab</button>
+        <item_parameter display_value="Waitlist">aa8a687fee65191005473dc667246baa</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:50</sys_created_on>
+        <sys_id>a28a687f3a651910216650701b7c99ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>aa8a687fee65191005473dc667246baa</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_a28a687f3a651910216650701b7c99ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:50</sys_updated_on>
+        <ui_parameter display_value="Waitlist size">a68a687f31651910ec220e18d0d1a3aa</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

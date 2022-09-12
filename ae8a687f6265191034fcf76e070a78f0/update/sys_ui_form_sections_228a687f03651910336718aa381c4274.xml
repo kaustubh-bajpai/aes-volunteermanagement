@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="228a687f03651910336718aa381c4274" sys_domain="global" table="x_snc_volunteeri_0_attendee" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 00:11:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>628a687f7f651910213d23088eec4374</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_volunteeri_0_attendee" name="x_snc_volunteeri_0_attendee" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">228a687f03651910336718aa381c4274</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_volunteeri_0_attendee" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">a68a687f3e65191093bc360a4a2b9174</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 00:11:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 00:11:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e28a687f416519107f6e5adc4b228174</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_volunteeri_0_attendee" name="x_snc_volunteeri_0_attendee" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">228a687f03651910336718aa381c4274</sys_ui_form>
+            <sys_ui_section caption="Notes and comments" display_value="Notes and comments" name="x_snc_volunteeri_0_attendee" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">e68a687fbe6519108717b199489ea574</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 00:11:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_volunteeri_0_attendee</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 00:11:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>228a687f03651910336718aa381c4274</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_volunteeri_0_attendee</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_228a687f03651910336718aa381c4274</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 00:11:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">cfdaf9011b901110c342edb7b04bcb41</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

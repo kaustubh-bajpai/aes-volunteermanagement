@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Volunteering Event Management">2e8a687fc3651910a8c20bf26ae4dba7</applet_launcher>
+        <order>10</order>
+        <section display_value="Volunteering Events Created by Me">268a687f91651910f636db4c08f827a7</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:33</sys_created_on>
+        <sys_id>a28a687f726519105b89a86694386da7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_a28a687f726519105b89a86694386da7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:33</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

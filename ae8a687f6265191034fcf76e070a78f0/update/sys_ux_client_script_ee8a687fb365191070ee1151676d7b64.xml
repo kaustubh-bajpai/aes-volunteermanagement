@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="List">6e8a687fc26519102bd9103cd19fd46a</macroponent>
+        <name>Refresh List</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event: {payload, payload: {name, value}}, helpers, imports}) {
+    if (name === 'activityLogs' && value && value.size > 0) {
+        const operationList = ['modified', 'inserted', 'deleted', 'closed'];
+        // Transform "value" and get the latest entry
+        const map = Array.from(value).pop()[1];        
+        const {operation, sysId, timestamp} = map.activities.get('crud')[0];
+        if (operationList.includes(operation) && sysId !== "-1") {
+            api.setState('listRefresh', {timestamp, background: true });
+        }         
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:04</sys_created_on>
+        <sys_id>ee8a687fb365191070ee1151676d7b64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_ux_client_script_ee8a687fb365191070ee1151676d7b64</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:04</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

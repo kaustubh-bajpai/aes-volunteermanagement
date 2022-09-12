@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <alert/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="My Attendees Icon">628a687f1f6519104cf6a6c5ed7f2ca2</icon>
+        <item_view display_value="My Attendees Header Item View">668a687f816519101bbe14aa848721a1</item_view>
+        <name>My Attendees</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <roles_override/>
+        <segments_height/>
+        <segments_min_width/>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:49</sys_created_on>
+        <sys_id>2e8a687f906519105d428dccdf1a31a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Attendees</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_form_screen_2e8a687f906519105d428dccdf1a31a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:49</sys_updated_on>
+        <table/>
+        <use_view_config>false</use_view_config>
+        <view_config/>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=2e8a687f906519105d428dccdf1a31a1"/>
+</record_update>

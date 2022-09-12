@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_04_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:44</sys_created_on>
+        <sys_id>aa8a687f2665191053c3e4069cffda8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_04_element</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_aa8a687f2665191053c3e4069cffda8a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:44</sys_updated_on>
+        <view_config display_value="Upcoming Events View Config">ee8a687fa2651910df850c89eb99e994</view_config>
+        <view_template_slot display_value="text_04">6a8a687fbe651910e04b11995ac6088a</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

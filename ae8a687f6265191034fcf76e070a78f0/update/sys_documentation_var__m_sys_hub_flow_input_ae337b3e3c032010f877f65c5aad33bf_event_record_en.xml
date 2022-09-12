@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="event_record" label="Event record" language="en" table="var__m_sys_hub_flow_input_668a687f7e65191071ddf528b552a3c3">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>event_record</element>
+            <help/>
+            <hint/>
+            <label>Event record</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_668a687f7e65191071ddf528b552a3c3</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 00:12:03</sys_created_on>
+            <sys_id>228a687f3b65191005c462c190ab8ddd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Event record</sys_name>
+            <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ae337b3e3c032010f877f65c5aad33bf_event_record_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 00:12:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

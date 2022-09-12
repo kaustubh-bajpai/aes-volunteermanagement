@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
+    <sys_sg_form_segment action="INSERT_OR_UPDATE">
+        <embedded_screen display_value="Waitlist">a28a687f746519100c3360e9dc092ea0</embedded_screen>
+        <form display_value="My Events">2e8a687f276519103fae3efe28a9eca2</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
+        <order>40</order>
+        <sys_class_name>sys_sg_form_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:00</sys_created_on>
+        <sys_id>e68a687f2c651910d0c58aad02da8ca0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_form_segment_e68a687f2c651910d0c58aad02da8ca0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:00</sys_updated_on>
+    </sys_sg_form_segment>
+</record_update>

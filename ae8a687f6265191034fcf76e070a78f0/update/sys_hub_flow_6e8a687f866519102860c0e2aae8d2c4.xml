@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Sends a reminder email to Event Attendees</description>
+        <internal_name>x_snc_volunteeri_0.send_event_reminder_e</internal_name>
+        <label_cache>[{"name":"fcf92989-b87f-4e5c-b38c-2c81e31dfa37.item","label":"2➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Table","label":"1➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Records","label":"1➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>a28a687f60651910e6e3db2df8bd17c5</master_snapshot>
+        <name>Send Event Reminder Email</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>628a687fb16519108b5a63b009a931c5</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e8a687f866519102860c0e2aae8d2c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Event Reminder Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_hub_flow_6e8a687f866519102860c0e2aae8d2c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2021-03-26 13:58:03</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>628a687fb16519108b5a63b009a931c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <time>1970-01-01 11:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:628a687fb16519108b5a63b009a931c5^sys_idNOT IN228a687f466519104fcbe6d31b2848c5"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:628a687fb16519108b5a63b009a931c5</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="">maint</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2021-03-26 13:58:03</run_start>
+        <run_time>1970-01-01 11:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('628a687fb16519108b5a63b009a931c5');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>228a687f466519104fcbe6d31b2848c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">628a687fb16519108b5a63b009a931c5</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=6e8a687f866519102860c0e2aae8d2c4^sys_idNOT INe28a687f3265191075388f590bf7c2c5"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Runs Daily at a specific time of day.</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">6e8a687f866519102860c0e2aae8d2c4</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>e28a687f3265191075388f590bf7c2c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e28a687f3265191075388f590bf7c2c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e28a687f3265191075388f590bf7c2c5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>ee8a687f8c6519104665393416c3f8c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <value>1970-01-01 03:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=e28a687f3265191075388f590bf7c2c5"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6e8a687f866519102860c0e2aae8d2c4^sys_idNOT INae8a687f2065191005656738fb1dbcc4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6e8a687f866519102860c0e2aae8d2c4</id>
+        <name>Send Event Reminder Email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>ae8a687f2065191005656738fb1dbcc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ae8a687f2065191005656738fb1dbcc4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6e8a687f866519102860c0e2aae8d2c4^sys_idNOT IN268a687f396519107bb02831d3060ac5,6a8a687ff7651910ce2d290cf82196c4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <comment>Send reminder notification to attendees</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">6e8a687f866519102860c0e2aae8d2c4</flow>
+        <order>3</order>
+        <parent_ui_id>fcf92989-b87f-4e5c-b38c-2c81e31dfa37</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>268a687f396519107bb02831d3060ac5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:26</sys_updated_on>
+        <ui_id>001849c5-2f70-48d1-bb82-0a9370ce40e9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=268a687f396519107bb02831d3060ac5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>268a687f396519107bb02831d3060ac5</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>2e8a687fad6519108c971fe0fb2987c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <value>a68a687f59651910c62fc2d2a07d92e6</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>268a687f396519107bb02831d3060ac5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>668a687ff4651910f295fb7059cda5c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=268a687f396519107bb02831d3060ac5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>268a687f396519107bb02831d3060ac5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>268a687fa76519106178794b8e51cec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{fcf92989-b87f-4e5c-b38c-2c81e31dfa37.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=268a687f396519107bb02831d3060ac5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=268a687f396519107bb02831d3060ac5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Get confirmed attendees for events where the reminder email date is today</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">6e8a687f866519102860c0e2aae8d2c4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>6a8a687ff7651910ce2d290cf82196c4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:26</sys_updated_on>
+        <ui_id>e5447539-13b9-4f98-890d-c6c3c9508089</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a8a687ff7651910ce2d290cf82196c4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a8a687ff7651910ce2d290cf82196c4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>2a8a687f99651910c6dd1026e19c31c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <value>event_nameISNOTEMPTY^attendee_status=confirmed^event_name.event_reminder_date&gt;javascript:gs.endOfYesterday()^event_name.event_reminder_date&lt;javascript:gs.beginningOfTomorrow()^event_name.stateIN1,2</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a8a687ff7651910ce2d290cf82196c4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>ea8a687f4465191077ff2ebed8a46cc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=6a8a687ff7651910ce2d290cf82196c4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a8a687ff7651910ce2d290cf82196c4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a8a687ff7651910ce2d290cf82196c4"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6e8a687f866519102860c0e2aae8d2c4^sys_idNOT INaa8a687fe16519105e6a0447781affc4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e28a687f9e651910c888a7c14aab01c4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Send Event Reminder Email">6e8a687f866519102860c0e2aae8d2c4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>aa8a687fe16519105e6a0447781affc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <ui_id>fcf92989-b87f-4e5c-b38c-2c81e31dfa37</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=aa8a687fe16519105e6a0447781affc4"/>
+    <sys_element_mapping action="delete_multiple" query="id=aa8a687fe16519105e6a0447781affc4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>aa8a687fe16519105e6a0447781affc4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>e68a687f126519107caccd10b59c86c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e5447539-13b9-4f98-890d-c6c3c9508089.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=aa8a687fe16519105e6a0447781affc4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aa8a687fe16519105e6a0447781affc4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6e8a687f866519102860c0e2aae8d2c4^sys_idNOT INa68a687f4865191056d04119da196ac4"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"a68a687f4865191056d04119da196ac4","name":"plan","plan_signature":null}}</plan>
+        <plan_id>6e8a687f866519102860c0e2aae8d2c4</plan_id>
+        <snapshot>eccaac771ba11910c58ec91d0d4bcb79</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a68a687f4865191056d04119da196ac4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <trigger display_value="">628a687fb16519108b5a63b009a931c5</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6e8a687f866519102860c0e2aae8d2c4"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Sends a reminder email to Event Attendees</description>
+        <internal_name>x_snc_volunteeri_0.send_event_reminder_e</internal_name>
+        <label_cache>[{"name":"fcf92989-b87f-4e5c-b38c-2c81e31dfa37.item","label":"2➛Attendee Record","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Table","label":"1➛Attendee Table","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e5447539-13b9-4f98-890d-c6c3c9508089.Records","label":"1➛Attendee Records","reference":"x_snc_event_reg_attendee","reference_display":"Attendee","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Send Event Reminder Email</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Send Event Reminder Email">6e8a687f866519102860c0e2aae8d2c4</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a28a687f60651910e6e3db2df8bd17c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a28a687f60651910e6e3db2df8bd17c5^sys_idNOT IN228a687fe865191000a1aa82926ca9c4"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Runs Daily at a specific time of day.</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">a28a687f60651910e6e3db2df8bd17c5</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>228a687fe865191000a1aa82926ca9c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=228a687fe865191000a1aa82926ca9c4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>228a687fe865191000a1aa82926ca9c4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>ee8a687f89651910efc83b6fdbc765c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <value>1970-01-01 03:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=228a687fe865191000a1aa82926ca9c4"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a28a687f60651910e6e3db2df8bd17c5^sys_idNOT IN2e8a687fe265191006d3334807ac7bc3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a28a687f60651910e6e3db2df8bd17c5</id>
+        <name>Send Event Reminder Email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>2e8a687fe265191006d3334807ac7bc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2e8a687fe265191006d3334807ac7bc3"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a28a687f60651910e6e3db2df8bd17c5^sys_idNOT IN6a8a687fdf65191004113e6e89d267c3,6e8a687f1665191012060fb7ffbc9cc3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment>Get confirmed attendees for events where the reminder email date is today</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">a28a687f60651910e6e3db2df8bd17c5</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>6a8a687fdf65191004113e6e89d267c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <ui_id>e5447539-13b9-4f98-890d-c6c3c9508089</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a8a687fdf65191004113e6e89d267c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a8a687fdf65191004113e6e89d267c3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>aa8a687f84651910694a973c410083c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6a8a687fdf65191004113e6e89d267c3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>ae8a687fd3651910505a8b2357a7aac3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <value>event_nameISNOTEMPTY^attendee_status=confirmed^event_name.event_reminder_date&gt;javascript:gs.endOfYesterday()^event_name.event_reminder_date&lt;javascript:gs.beginningOfTomorrow()^event_name.stateIN1,2</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=6a8a687fdf65191004113e6e89d267c3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a8a687fdf65191004113e6e89d267c3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a8a687fdf65191004113e6e89d267c3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment>Send reminder notification to attendees</comment>
+        <display_text/>
+        <flow display_value="Send Event Reminder Email">a28a687f60651910e6e3db2df8bd17c5</flow>
+        <order>3</order>
+        <parent_ui_id>fcf92989-b87f-4e5c-b38c-2c81e31dfa37</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>6e8a687f1665191012060fb7ffbc9cc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <ui_id>001849c5-2f70-48d1-bb82-0a9370ce40e9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e8a687f1665191012060fb7ffbc9cc3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8a687f1665191012060fb7ffbc9cc3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>a28a687f6a65191070b69e96307375c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <value>x_snc_volunteeri_0_attendee</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e8a687f1665191012060fb7ffbc9cc3</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>ea8a687f64651910550b08f6645cdcc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <value>a68a687f59651910c62fc2d2a07d92e6</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e8a687f1665191012060fb7ffbc9cc3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6e8a687f1665191012060fb7ffbc9cc3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>628a687f6165191048b6b8c6a8aed9c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{fcf92989-b87f-4e5c-b38c-2c81e31dfa37.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e8a687f1665191012060fb7ffbc9cc3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e8a687f1665191012060fb7ffbc9cc3"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a28a687f60651910e6e3db2df8bd17c5^sys_idNOT IN268a687f59651910666e58d3211dd9c3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e28a687f9e651910c888a7c14aab01c4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Send Event Reminder Email">a28a687f60651910e6e3db2df8bd17c5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>268a687f59651910666e58d3211dd9c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <ui_id>fcf92989-b87f-4e5c-b38c-2c81e31dfa37</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=268a687f59651910666e58d3211dd9c3"/>
+    <sys_element_mapping action="delete_multiple" query="id=268a687f59651910666e58d3211dd9c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>268a687f59651910666e58d3211dd9c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:23</sys_created_on>
+        <sys_id>e68a687fb56519109ce48d98bfc921c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e5447539-13b9-4f98-890d-c6c3c9508089.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=268a687f59651910666e58d3211dd9c3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=268a687f59651910666e58d3211dd9c3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a28a687f60651910e6e3db2df8bd17c5"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>6e8a687f866519102860c0e2aae8d2c4</sys_id>
+        <latest_snapshot>a28a687f60651910e6e3db2df8bd17c5</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch4b-07-19-2022_08-09-2022_1837.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

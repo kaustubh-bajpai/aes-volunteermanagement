@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="volunteering_event" label="Volunteering Event" language="en" table="x_snc_volunteeri_0_volunteering_skill">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>volunteering_event</element>
+            <help/>
+            <hint/>
+            <label>Volunteering Event</label>
+            <language>en</language>
+            <name>x_snc_volunteeri_0_volunteering_skill</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-11 22:44:06</sys_created_on>
+            <sys_id>0c7637b61b791d50c342edb7b04bcbfa</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Volunteering Event</sys_name>
+            <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_volunteeri_0_volunteering_skill_volunteering_event_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-11 22:44:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

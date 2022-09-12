@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Event Details" section_id="c00616b81bb5dd10c342edb7b04bcb70" sys_domain="global" table="x_snc_volunteeri_0_event" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>charity_partner</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-05 10:36:50</sys_created_on>
+            <sys_id>587612f81bb5dd10c342edb7b04bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event Details" display_value="Event Details" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">c00616b81bb5dd10c342edb7b04bcb70</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-05 10:36:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>privacy_compliance_regulations</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-05 10:36:50</sys_created_on>
+            <sys_id>5c7612f81bb5dd10c342edb7b04bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event Details" display_value="Event Details" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">c00616b81bb5dd10c342edb7b04bcb70</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-05 10:36:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>evl_endorsed_volunteering_leave_event</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-05 10:36:50</sys_created_on>
+            <sys_id>507612f81bb5dd10c342edb7b04bcbea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event Details" display_value="Event Details" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">c00616b81bb5dd10c342edb7b04bcb70</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-05 10:36:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>event_type</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-05 10:36:50</sys_created_on>
+            <sys_id>547612f81bb5dd10c342edb7b04bcbea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Event Details" display_value="Event Details" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">c00616b81bb5dd10c342edb7b04bcb70</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-05 10:36:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Event Details</caption>
+            <header>false</header>
+            <name>x_snc_volunteeri_0_event</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-05 10:34:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c00616b81bb5dd10c342edb7b04bcb70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_volunteeri_0_event</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+            <sys_update_name>sys_ui_section_c00616b81bb5dd10c342edb7b04bcb70</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-05 10:34:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">cfdaf9011b901110c342edb7b04bcb41</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

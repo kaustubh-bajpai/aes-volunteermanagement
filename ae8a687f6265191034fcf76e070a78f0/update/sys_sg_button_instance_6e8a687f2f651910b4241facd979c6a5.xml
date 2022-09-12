@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Launcher Button">ea8a687f50651910015016751c6c87a6</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon display_value="User Icon">aa8a687f066519100f8071631664b9a5</icon>
+        <label>Event Management Launcher Button Instance</label>
+        <location>top</location>
+        <name>Event Management Launcher Button Instance</name>
+        <order/>
+        <parent>2e8a687fc3651910a8c20bf26ae4dba7</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:44</sys_created_on>
+        <sys_id>6e8a687f2f651910b4241facd979c6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Management Launcher Button Instance</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_button_instance_6e8a687f2f651910b4241facd979c6a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:44</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=6e8a687f2f651910b4241facd979c6a5"/>
+</record_update>

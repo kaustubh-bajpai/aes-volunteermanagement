@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Volunteering Skill" max_length="40" name="x_snc_volunteeri_0_volunteering_skill" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Skill Name" max_length="40" name="skill_name" type="string"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Volunteering Event" max_length="32" name="volunteering_event" reference="x_snc_volunteeri_0_event" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+        <index name="index2">
+            <element name="volunteering_event"/>
+        </index>
+    </element>
+</database>

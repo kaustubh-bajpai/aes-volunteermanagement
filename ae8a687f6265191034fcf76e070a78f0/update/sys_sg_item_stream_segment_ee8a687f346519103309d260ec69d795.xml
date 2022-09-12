@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="INSERT_OR_UPDATE">
+        <empty_state/>
+        <interleave_order_direction>asc</interleave_order_direction>
+        <max_offline_rows/>
+        <name>All Events Copy Item Stream Segment</name>
+        <order>10</order>
+        <screen display_value="All Events">ea8a687f9b6519105cfa46e865b0b09c</screen>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:12:34</sys_created_on>
+        <sys_id>ee8a687f346519103309d260ec69d795</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Events Copy Item Stream Segment</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_ee8a687f346519103309d260ec69d795</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:12:34</sys_updated_on>
+    </sys_sg_item_stream_segment>
+</record_update>

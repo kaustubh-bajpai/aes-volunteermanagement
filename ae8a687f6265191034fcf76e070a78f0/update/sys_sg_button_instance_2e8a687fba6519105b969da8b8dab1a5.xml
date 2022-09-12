@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Register an Event">e28a687fb46519103b9d1197e7fb67a8</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Register</label>
+        <location>footer</location>
+        <name>Register an Event </name>
+        <order>10</order>
+        <parent>6a8a687f0d651910beeed02f18e40fa5</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-02 00:11:59</sys_created_on>
+        <sys_id>2e8a687fba6519105b969da8b8dab1a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Register an Event</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_button_instance_2e8a687fba6519105b969da8b8dab1a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-02 00:11:59</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=2e8a687fba6519105b969da8b8dab1a5"/>
+</record_update>
