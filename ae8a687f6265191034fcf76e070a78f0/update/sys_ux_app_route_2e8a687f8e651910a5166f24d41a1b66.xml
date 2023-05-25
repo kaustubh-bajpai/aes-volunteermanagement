@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Event Registration Portal">e28a687f8b651910ab7fbc7c3f5cd8f0</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon/>
         <name>404</name>

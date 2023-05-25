@@ -2,7 +2,7 @@
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2022-09-06 05:00:05</change_date>
         <changed_by display_value="Kaustubh Bajpai">6816f79cc0a8016401c5a33be04be441</changed_by>
-        <content display_value="Activate user provisioning">d903241bc7c90110408bc8d6f2c2606f</content>
+        <content display_value="">d903241bc7c90110408bc8d6f2c2606f</content>
         <related_change_log_entry/>
         <related_task_entry/>
         <sys_class_name>gsw_change_log</sys_class_name>

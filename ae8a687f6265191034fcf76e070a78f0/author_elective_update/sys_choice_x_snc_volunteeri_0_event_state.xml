@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by/>
             <sys_created_on/>
-            <sys_id>e38ae87f1b651910c342edb7b04bcb3f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2022-09-02 00:11:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ea8a687fd26519102d267a539c4cd0e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:32</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2022-09-02 00:11:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>228a687fb865191048389ad9013359e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:32</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2022-09-02 00:11:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>268a687f6b65191032e5e5668e42e0e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:32</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2022-09-02 00:11:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e28a687fd16519106d67fa2c88f090e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:32</sys_updated_on>
@@ -110,7 +105,6 @@
             <sys_created_on>2022-09-02 00:11:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2e8a687f11651910d5d9a60cb3aa98e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:32</sys_updated_on>

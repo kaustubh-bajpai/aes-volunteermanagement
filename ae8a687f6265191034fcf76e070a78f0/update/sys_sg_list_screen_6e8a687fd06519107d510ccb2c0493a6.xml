@@ -10,6 +10,7 @@
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="icon-Address-Book">e68a687faf651910d484958eaae76a9e</icon>
         <name>Upcoming Events</name>
+        <parameter_screen/>
         <roles_override/>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>

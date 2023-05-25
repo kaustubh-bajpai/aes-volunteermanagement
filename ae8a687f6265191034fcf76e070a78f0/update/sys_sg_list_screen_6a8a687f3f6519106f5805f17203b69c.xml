@@ -10,6 +10,7 @@
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="icon-Address-Book">ee8a687f5e6519103f30cad20e36999e</icon>
         <name>Events Created by Me</name>
+        <parameter_screen/>
         <roles_override>x_snc_volunteeri_0.event_reg.organizer,x_snc_volunteeri_0.event_reg.admin</roles_override>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>

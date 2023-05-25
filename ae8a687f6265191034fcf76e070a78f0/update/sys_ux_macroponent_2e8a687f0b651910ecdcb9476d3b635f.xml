@@ -631,8 +631,11 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events>ae8a687ff36519106c6d6a9491cd335f,d9f32aa20b2210108e64aabcb4673a61,69f32aa20b2210108e64aabcb4673a67,edf32aa20b2210108e64aabcb4673a72</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -665,6 +668,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>404</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "sysId",
   "label" : "sysId",
@@ -721,4 +725,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:11:40</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=2e8a687f0b651910ecdcb9476d3b635f"/>
 </record_update>

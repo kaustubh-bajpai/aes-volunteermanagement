@@ -222,8 +222,11 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events>228a687f1165191074fc6aa3c5c4f460</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events>ee8a687fb96519107cd19b35c47ceb6a</handled_events>
         <interactions/>
         <interfaces/>
@@ -306,6 +309,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Attending</name>
+        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[{"message":"You aren't attending any events. Find something that interests you in the list of upcoming events.","comment":""}]</required_translations>
         <root_component/>
@@ -370,4 +374,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:12:27</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=668a687f8e651910a2c8f75ab7673566"/>
 </record_update>

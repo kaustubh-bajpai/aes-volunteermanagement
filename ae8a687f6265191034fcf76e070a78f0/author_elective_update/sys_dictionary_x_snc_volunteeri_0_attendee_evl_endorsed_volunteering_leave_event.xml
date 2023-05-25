@@ -104,7 +104,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>EVL ( (endorsed volunteering leave) Event</sys_name>
         <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
-        <sys_parent display_value="Volunteer">4b8aa87f1b651910c342edb7b04bcbcb</sys_parent>
+        <sys_parent display_value="">4b8aa87f1b651910c342edb7b04bcbcb</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
         <sys_scope_delete display_value="">5324a9ef6c28480085941b01b90e5c59</sys_scope_delete>

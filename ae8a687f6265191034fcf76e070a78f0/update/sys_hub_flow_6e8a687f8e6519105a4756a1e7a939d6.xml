@@ -15,6 +15,7 @@
         <name>Send Event Details Changed Email</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>228a687f446519103a242b346cbe5fd7</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
@@ -36,7 +37,7 @@
         <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
         <sys_update_name>sys_hub_flow_6e8a687f8e6519105a4756a1e7a939d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-02 00:12:07</sys_updated_on>
+        <sys_updated_on>2023-05-25 05:57:16</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=6e8a687f8e6519105a4756a1e7a939d6"/>
@@ -206,6 +207,7 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -252,6 +254,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -287,6 +290,7 @@
         <element>current</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -333,6 +337,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -368,6 +373,7 @@
         <element>changed_fields</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -414,6 +420,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -841,6 +848,7 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -887,6 +895,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -922,6 +931,7 @@
         <element>current</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -968,6 +978,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1003,6 +1014,7 @@
         <element>changed_fields</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1049,6 +1061,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

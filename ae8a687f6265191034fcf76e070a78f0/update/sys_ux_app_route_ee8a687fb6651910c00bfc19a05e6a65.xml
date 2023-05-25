@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config/>
         <description/>
+        <extension_point/>
         <fields>userGivenTable,table,label,parentRecordSysId,parentFieldName,referencedFieldName,extensionPoint,view,columns,hideSelectAll,type,relatedListName</fields>
         <icon/>
         <name>DA Modal Multi-Record Associator</name>

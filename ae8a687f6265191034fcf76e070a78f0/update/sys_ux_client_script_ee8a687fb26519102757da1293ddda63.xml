@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="event_details">6e8a687fcd6519104447762a65239f63</macroponent>
         <name>Set Client States</name>
+        <preset/>
         <required_translations>[ {
   "code" : null,
   "message" : "If there are still seats left, you can register again later.",
@@ -146,6 +147,7 @@ function handler({
         <sys_update_name>sys_ux_client_script_ee8a687fb26519102757da1293ddda63</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:11:44</sys_updated_on>
+        <target/>
         <type/>
     </sys_ux_client_script>
 </record_update>

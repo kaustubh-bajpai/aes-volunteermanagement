@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="List">6e8a687fc26519102bd9103cd19fd46a</macroponent>
         <name>Refresh List</name>
+        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[/**
  * @param {params} params
@@ -34,6 +35,7 @@ function handler({api, event: {payload, payload: {name, value}}, helpers, import
         <sys_update_name>sys_ux_client_script_ee8a687fb365191070ee1151676d7b64</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:12:04</sys_updated_on>
+        <target/>
         <type/>
     </sys_ux_client_script>
 </record_update>

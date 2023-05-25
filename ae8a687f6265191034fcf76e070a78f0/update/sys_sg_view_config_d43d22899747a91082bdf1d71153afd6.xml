@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <description/>
+        <name>Volunteer Detail Screen View Config</name>
+        <scratchpad_script/>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-25 06:24:22</sys_created_on>
+        <sys_id>d43d22899747a91082bdf1d71153afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Volunteer Detail Screen View Config</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_view_config_d43d22899747a91082bdf1d71153afd6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-25 06:24:22</sys_updated_on>
+        <table>x_snc_volunteeri_0_attendee</table>
+        <template display_value="Template 01">6bb0be5c41a71010f877183fc9b8be0c</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=d43d22899747a91082bdf1d71153afd6"/>
+</record_update>

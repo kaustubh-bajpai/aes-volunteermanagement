@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true" audit="true" label="Event" max_length="40" name="x_snc_volunteeri_0_event" sizeclass="3" text_index="true" type="collection">
+    <element attributes="hasLabels=true" audit="true" db_object_id="b7c6e2c99707a91082bdf1d71153aff5" label="Event" max_length="40" name="x_snc_volunteeri_0_event" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" default="0" label="Attendees" max_length="40" name="attendees" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Capacity" mandatory="true" max_length="40" name="capacity" type="integer"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;    if (parseInt(current.percent_full) &gt;= 100) {&#10;        return 'full';&#10;    } else {&#10;        return 'seats_avail';&#10;    }&#10;&#10;})(current);" choice="3" default="seats_avail" label="Capacity Status" max_length="40" name="capacity_status" read_only="true" type="choice" virtual="true">
@@ -50,16 +50,16 @@
         <element attributes="edge_encryption_enabled=true" label="Waitlist size" mandatory="true" max_length="40" name="waitlist_size" type="integer"/>
         <element label="Work notes" max_length="4000" name="work_notes" type="journal_input"/>
         <index name="index">
-            <element name="organizer"/>
+            <element name="charity_partner"/>
         </index>
         <index name="index2">
             <element name="location"/>
         </index>
         <index name="index3">
-            <element name="sys_class_name"/>
+            <element name="organizer"/>
         </index>
         <index name="index4">
-            <element name="charity_partner"/>
+            <element name="sys_class_name"/>
         </index>
     </element>
 </database>

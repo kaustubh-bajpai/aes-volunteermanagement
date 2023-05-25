@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Event Reg Panel">628a687fba651910568231fe104ff4f0</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon/>
         <name>Events dashboard</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>home</route_type>
         <screen_type display_value="Events dashboard">2a8a687f8265191047a8774b449c1066</screen_type>

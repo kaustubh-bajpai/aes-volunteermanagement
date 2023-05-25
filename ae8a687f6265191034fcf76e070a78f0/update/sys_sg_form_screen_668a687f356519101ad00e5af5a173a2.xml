@@ -14,6 +14,7 @@
         <item_view/>
         <name>My Events</name>
         <override_context_with_data_item>false</override_context_with_data_item>
+        <parameter_screen/>
         <roles_override>x_snc_volunteeri_0.event_reg.attendee</roles_override>
         <segments_height>medium</segments_height>
         <segments_min_width>medium</segments_min_width>

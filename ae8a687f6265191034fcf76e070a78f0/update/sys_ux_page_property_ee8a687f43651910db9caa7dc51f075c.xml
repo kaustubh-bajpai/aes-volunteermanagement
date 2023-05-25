@@ -5,7 +5,7 @@
         <name>actionConfigId</name>
         <page display_value="Volunteering Management Workspace">268a687f60651910f4f10d0ac07f20f0</page>
         <required_translations>[]</required_translations>
-        <route display_value="Record">618adc930f0210107d20409dc4767e93</route>
+        <route display_value="">618adc930f0210107d20409dc4767e93</route>
         <suffix/>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>admin</sys_created_by>

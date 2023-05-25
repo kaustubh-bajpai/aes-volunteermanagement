@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config/>
         <description>Declarative action Reference Modal Lookup</description>
+        <extension_point/>
         <fields>table,sysId,referenceField,label,serializedChanges,encodedRecord,size</fields>
         <icon/>
         <name>DA Modal Ref Lookup</name>

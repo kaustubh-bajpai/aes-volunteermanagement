@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>attendee_status</element>
-            <list_id display_value="x_snc_volunteeri_0_attendee" element="NULL" name="x_snc_volunteeri_0_attendee" parent="x_snc_volunteeri_0_event" relationship="NULL" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">aa8a687f6765191019abb699c1c6a271</list_id>
+            <list_id display_value="x_snc_volunteeri_0_attendee" element="NULL" name="x_snc_volunteeri_0_attendee" parent="x_snc_volunteeri_0_event" relationship="NULL" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">aa8a687f6765191019abb699c1c6a271</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>attendee_name</element>
-            <list_id display_value="x_snc_volunteeri_0_attendee" element="NULL" name="x_snc_volunteeri_0_attendee" parent="x_snc_volunteeri_0_event" relationship="NULL" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">aa8a687f6765191019abb699c1c6a271</list_id>
+            <list_id display_value="x_snc_volunteeri_0_attendee" element="NULL" name="x_snc_volunteeri_0_attendee" parent="x_snc_volunteeri_0_event" relationship="NULL" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">aa8a687f6765191019abb699c1c6a271</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>attendee_name.title</element>
-            <list_id display_value="x_snc_volunteeri_0_attendee" element="NULL" name="x_snc_volunteeri_0_attendee" parent="x_snc_volunteeri_0_event" relationship="NULL" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">aa8a687f6765191019abb699c1c6a271</list_id>
+            <list_id display_value="x_snc_volunteeri_0_attendee" element="NULL" name="x_snc_volunteeri_0_attendee" parent="x_snc_volunteeri_0_event" relationship="NULL" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">aa8a687f6765191019abb699c1c6a271</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>attendee_name.email</element>
-            <list_id display_value="x_snc_volunteeri_0_attendee" element="NULL" name="x_snc_volunteeri_0_attendee" parent="x_snc_volunteeri_0_event" relationship="NULL" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">aa8a687f6765191019abb699c1c6a271</list_id>
+            <list_id display_value="x_snc_volunteeri_0_attendee" element="NULL" name="x_snc_volunteeri_0_attendee" parent="x_snc_volunteeri_0_event" relationship="NULL" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">aa8a687f6765191019abb699c1c6a271</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -85,7 +85,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:12:18</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace" name="workspace">cfdaf9011b901110c342edb7b04bcb41</view>
+            <view display_value="Workspace" name="workspace">0b81d24797b2211082bdf1d71153aff4</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

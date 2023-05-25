@@ -15,6 +15,7 @@
         <name>Event Registration cancelled events</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>a28a687f34651910567aebf5a111cfbf</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles name="x_snc_volunteeri_0.event_reg.admin">a68a687f29651910b7ed7277b69595f0</run_with_roles>
@@ -36,7 +37,7 @@
         <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
         <sys_update_name>sys_hub_flow_2e8a687f6165191057bc33d24492edbe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-02 00:12:03</sys_updated_on>
+        <sys_updated_on>2023-05-25 05:57:10</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2e8a687f6165191057bc33d24492edbe"/>
@@ -187,6 +188,7 @@
         <element>current</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -233,6 +235,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -268,6 +271,7 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -314,6 +318,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -349,6 +354,7 @@
         <element>changed_fields</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -395,6 +401,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -886,6 +893,7 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -932,6 +940,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -967,6 +976,7 @@
         <element>current</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1013,6 +1023,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1048,6 +1059,7 @@
         <element>changed_fields</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1094,6 +1106,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by/>
             <sys_created_on/>
-            <sys_id>d39a64bf1b651910c342edb7b04bcb4b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>status</sys_name>
             <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2022-09-02 00:11:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2a8a687f706519104e65898326b568e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:48</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2022-09-02 00:11:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e68a687f15651910c7bb5b81033039e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:48</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2022-09-02 00:11:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a28a687f67651910afa2270f99a9ece3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:48</sys_updated_on>

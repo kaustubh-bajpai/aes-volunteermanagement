@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="List">6e8a687fc26519102bd9103cd19fd46a</macroponent>
         <name>Update List Navigation IDs</name>
+        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[/**
  * @param {params} params
@@ -33,6 +34,7 @@ function handler({api, event, helpers, imports}) {
         <sys_update_name>sys_ux_client_script_268a687ffe65191040fe4f6c78e78b64</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:12:08</sys_updated_on>
+        <target/>
         <type/>
     </sys_ux_client_script>
 </record_update>

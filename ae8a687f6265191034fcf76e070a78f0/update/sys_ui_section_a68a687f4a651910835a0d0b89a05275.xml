@@ -8,7 +8,7 @@
             <sys_id>aa8a687f9f651910ed424a8cbd95066c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
+            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:52</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>6a8a687ffa6519101b293a7a953ad56c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
+            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:52</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>ae8a687f6f65191055e1fee2a774bb6c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
+            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:52</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>228a687f6e651910ecbdfb59c1cc966d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
+            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:52</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>6e8a687f17651910665833437092c76c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
+            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:52</sys_updated_on>
             <sys_user/>
@@ -78,7 +78,7 @@
             <sys_id>ea8a687f22651910a918262fcfd2066c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
+            <sys_ui_section caption="Location details" display_value="Location details" name="x_snc_volunteeri_0_event" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">a68a687f4a651910835a0d0b89a05275</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:52</sys_updated_on>
             <sys_user/>
@@ -106,7 +106,7 @@
             <sys_updated_on>2022-09-02 00:11:52</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">cfdaf9011b901110c342edb7b04bcb41</view>
+            <view display_value="Workspace" name="workspace">0b81d24797b2211082bdf1d71153aff4</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

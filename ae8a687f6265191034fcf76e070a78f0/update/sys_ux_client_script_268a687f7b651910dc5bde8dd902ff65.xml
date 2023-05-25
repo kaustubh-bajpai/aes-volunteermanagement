@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="Search results">668a687fed6519106b11cb3352388d65</macroponent>
         <name>Search result clicked</name>
+        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[function handler({
     api,
@@ -33,6 +34,7 @@
         <sys_update_name>sys_ux_client_script_268a687f7b651910dc5bde8dd902ff65</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:11:52</sys_updated_on>
+        <target/>
         <type/>
     </sys_ux_client_script>
 </record_update>

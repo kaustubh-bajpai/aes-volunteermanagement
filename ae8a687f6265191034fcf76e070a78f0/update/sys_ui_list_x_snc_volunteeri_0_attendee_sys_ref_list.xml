@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_volunteeri_0_attendee" element="NULL" name="x_snc_volunteeri_0_attendee" parent="NULL" relationship="NULL" sys_domain="global" view="de27f1411b101110c342edb7b04bcb65">ee8a687f256519104bbcca91c2cfaa73</list_id>
+            <list_id display_value="x_snc_volunteeri_0_attendee" element="NULL" name="x_snc_volunteeri_0_attendee" parent="NULL" relationship="NULL" sys_domain="global" view="daedc2439732211082bdf1d71153af7a">ee8a687f256519104bbcca91c2cfaa73</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:12:22</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">de27f1411b101110c342edb7b04bcb65</view>
+            <view display_value="Reference List" name="sys_ref_list">daedc2439732211082bdf1d71153af7a</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

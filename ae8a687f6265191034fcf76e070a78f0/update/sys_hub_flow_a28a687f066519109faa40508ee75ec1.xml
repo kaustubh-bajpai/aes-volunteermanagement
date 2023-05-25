@@ -15,6 +15,7 @@
         <name>Event Registration expired events</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>268a687fdf6519109d88deef2f1df2c1</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -36,7 +37,7 @@
         <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
         <sys_update_name>sys_hub_flow_a28a687f066519109faa40508ee75ec1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-02 00:11:55</sys_updated_on>
+        <sys_updated_on>2023-05-25 05:57:20</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a28a687f066519109faa40508ee75ec1"/>
@@ -69,6 +70,7 @@
         <condition/>
         <conditional>false</conditional>
         <entered_time/>
+        <max_drift/>
         <name>Trigger:268a687fdf6519109d88deef2f1df2c1</name>
         <offset/>
         <offset_type>0</offset_type>
@@ -348,6 +350,7 @@
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -394,6 +397,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -762,6 +766,7 @@
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -808,6 +813,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

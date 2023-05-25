@@ -2,6 +2,7 @@
     <sys_ux_event action="INSERT_OR_UPDATE">
         <description/>
         <event_name>CONTENT_UPDATED_RELAY_628a687f666519105b814b813f459665</event_name>
+        <explicit_api_name/>
         <interfaces/>
         <label>Add parameters to URL Relay (Events dashboard - Admin)</label>
         <props>[{"name":"params","fieldType":"json","interfaceApiName":null,"label":"Parameters"}]</props>

@@ -14,6 +14,7 @@
         <item_view display_value="My Attendees Header Item View">668a687f816519101bbe14aa848721a1</item_view>
         <name>My Attendees</name>
         <override_context_with_data_item>false</override_context_with_data_item>
+        <parameter_screen/>
         <roles_override/>
         <segments_height/>
         <segments_min_width/>

@@ -7205,8 +7205,11 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events>aa8a687f5f6519106c744c63d50c925f,a28a687fc0651910b2c7c9e71a563f60</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -7226,6 +7229,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Events dashboard</name>
+        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "Attendance (past 7 days)",
@@ -7315,4 +7319,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-12 05:32:27</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=628a687f666519105b814b813f459665"/>
 </record_update>

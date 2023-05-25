@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Charity Partner" max_length="40" name="x_snc_volunteeri_0_charity_partner" sizeclass="1" type="collection">
+    <element db_object_id="dcd626c99707a91082bdf1d71153af7b" label="Charity Partner" max_length="40" name="x_snc_volunteeri_0_charity_partner" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
     </element>

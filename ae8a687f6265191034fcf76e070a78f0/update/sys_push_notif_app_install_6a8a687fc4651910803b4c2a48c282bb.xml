@@ -2,6 +2,7 @@
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
         <active>true</active>
         <last_registered_on>2020-12-16 19:35:40</last_registered_on>
+        <send_badge_count>false</send_badge_count>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-02 00:11:49</sys_created_on>

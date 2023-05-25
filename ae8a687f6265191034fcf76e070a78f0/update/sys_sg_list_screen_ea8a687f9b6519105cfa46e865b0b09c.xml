@@ -10,6 +10,7 @@
         <hide_screen_name>false</hide_screen_name>
         <icon display_value="All Events Copy List Screen Icon">2e8a687fde651910501276e5878cc59d</icon>
         <name>All Events</name>
+        <parameter_screen/>
         <roles_override>x_snc_volunteeri_0.event_reg.admin,x_snc_volunteeri_0.event_reg.attendee,x_snc_volunteeri_0.event_reg.organizer</roles_override>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -15,6 +15,7 @@
         <name>Update Event Registration attendee records</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>!!!sys_trigger_reminder_sys_id!!</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -36,7 +37,7 @@
         <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
         <sys_update_name>sys_hub_flow_668a687f7e65191071ddf528b552a3c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-02 00:12:02</sys_updated_on>
+        <sys_updated_on>2023-05-25 05:57:12</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=668a687f7e65191071ddf528b552a3c3"/>
@@ -88,6 +89,7 @@
         <element>event_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -134,6 +136,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -437,6 +440,7 @@
         <element>event_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -483,6 +487,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

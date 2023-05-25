@@ -18,6 +18,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:12:33</sys_updated_on>
         <theme display_value="Event Registration Portal">2e8a687f39651910cdcca490cf8a97ea</theme>
+        <u_original_theme/>
         <ux_app_configuration display_value="Event Registration Portal">e28a687f8b651910ab7fbc7c3f5cd8f0</ux_app_configuration>
     </m2m_app_config_theme>
 </record_update>

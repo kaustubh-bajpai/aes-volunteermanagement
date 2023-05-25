@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_snc_volunteeri_0_event" version="2" view="workspace">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Event - Workspace" name="x_snc_volunteeri_0_event" related_list="NULL" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">e28a687ffa651910aaa4b63a5210b071</list_id>
+            <list_id display_value="Event - Workspace" name="x_snc_volunteeri_0_event" related_list="NULL" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">e28a687ffa651910aaa4b63a5210b071</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_snc_volunteeri_0_attendee.event_name</related_list>
@@ -36,7 +36,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:12:30</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace" name="workspace">cfdaf9011b901110c342edb7b04bcb41</view>
+            <view display_value="Workspace" name="workspace">0b81d24797b2211082bdf1d71153aff4</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>

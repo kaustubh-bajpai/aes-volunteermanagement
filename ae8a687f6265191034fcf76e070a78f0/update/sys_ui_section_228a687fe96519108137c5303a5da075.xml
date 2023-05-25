@@ -8,7 +8,7 @@
             <sys_id>268a687f7d65191072b6af59a983b76c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">228a687fe96519108137c5303a5da075</sys_ui_section>
+            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_snc_volunteeri_0_event" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">228a687fe96519108137c5303a5da075</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:58</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>2a8a687f83651910ee327ed8a0bd996c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">228a687fe96519108137c5303a5da075</sys_ui_section>
+            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_snc_volunteeri_0_event" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">228a687fe96519108137c5303a5da075</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:58</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>e68a687f6c65191037868923c319826c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="">2e8a687ff665191095ef943821275570</sys_ui_formatter>
-            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_snc_volunteeri_0_event" sys_domain="global" view="cfdaf9011b901110c342edb7b04bcb41">228a687fe96519108137c5303a5da075</sys_ui_section>
+            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_snc_volunteeri_0_event" sys_domain="global" view="0b81d24797b2211082bdf1d71153aff4">228a687fe96519108137c5303a5da075</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-09-02 00:11:58</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_updated_on>2022-09-02 00:11:58</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">cfdaf9011b901110c342edb7b04bcb41</view>
+            <view display_value="Workspace" name="workspace">0b81d24797b2211082bdf1d71153aff4</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

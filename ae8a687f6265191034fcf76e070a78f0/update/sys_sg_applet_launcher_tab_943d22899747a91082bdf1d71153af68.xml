@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="Volunteering Management">183d22899747a91082bdf1d71153af67</applet_launcher>
+        <icon display_value="File">dc3d22899747a91082bdf1d71153af66</icon>
+        <label>Volunteering Management</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-25 06:24:21</sys_created_on>
+        <sys_id>943d22899747a91082bdf1d71153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Volunteering Management</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_943d22899747a91082bdf1d71153af68</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-25 06:24:21</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

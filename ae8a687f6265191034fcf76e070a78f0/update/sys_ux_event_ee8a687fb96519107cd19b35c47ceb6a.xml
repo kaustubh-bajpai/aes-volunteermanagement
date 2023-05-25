@@ -2,6 +2,7 @@
     <sys_ux_event action="INSERT_OR_UPDATE">
         <description/>
         <event_name>ER_CLICKACTION</event_name>
+        <explicit_api_name/>
         <interfaces/>
         <label>ER_clickaction</label>
         <props>[{"name":"sysId","fieldType":"","label":"Record Id","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"table","fieldType":"","label":"Table","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"eventId","fieldType":"","label":"Event Id","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>

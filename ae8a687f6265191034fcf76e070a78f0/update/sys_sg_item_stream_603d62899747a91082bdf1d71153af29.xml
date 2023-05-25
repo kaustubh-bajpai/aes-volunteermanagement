@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Volunteer Data Item">143d22899747a91082bdf1d71153af8f</data_item>
+        <interleaved_field/>
+        <name>a03d62899747a91082bdf1d71153af27 Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-25 06:24:22</sys_created_on>
+        <sys_id>603d62899747a91082bdf1d71153af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a03d62899747a91082bdf1d71153af27 Item Stream</sys_name>
+        <sys_package display_value="Volunteering Management" source="x_snc_volunteeri_0">ae8a687f6265191034fcf76e070a78f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteering Management">ae8a687f6265191034fcf76e070a78f0</sys_scope>
+        <sys_update_name>sys_sg_item_stream_603d62899747a91082bdf1d71153af29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-25 06:24:22</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

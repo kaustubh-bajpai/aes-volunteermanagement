@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config/>
         <description/>
+        <extension_point/>
         <fields>confs,table,sysId</fields>
         <icon/>
         <name>Special Handling Notes</name>

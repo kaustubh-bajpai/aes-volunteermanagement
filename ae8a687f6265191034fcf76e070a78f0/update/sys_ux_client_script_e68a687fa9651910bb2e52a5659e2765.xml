@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="All events">668a687fe5651910d45d4c37a745b56b</macroponent>
         <name>Filter</name>
+        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[/**
  * @param {params} params
@@ -32,6 +33,7 @@ function handler({api, event, helpers, imports}) {
         <sys_update_name>sys_ux_client_script_e68a687fa9651910bb2e52a5659e2765</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:12:15</sys_updated_on>
+        <target/>
         <type/>
     </sys_ux_client_script>
 </record_update>

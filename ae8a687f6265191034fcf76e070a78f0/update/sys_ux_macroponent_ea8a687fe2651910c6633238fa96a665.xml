@@ -152,8 +152,11 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events>83e447ee0b621010a8b1c96237673a8d,0fe447ee0b621010a8b1c96237673a92,5fe447ee0b621010a8b1c96237673ab6</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -173,6 +176,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Search results</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "searchTerm",
   "label" : "searchTerm",
@@ -219,4 +223,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:12:35</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=ea8a687fe2651910c6633238fa96a665"/>
 </record_update>

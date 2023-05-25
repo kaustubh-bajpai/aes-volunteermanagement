@@ -382,8 +382,11 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
+        <description/>
         <dispatched_events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -403,6 +406,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>landing</name>
+        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "Event Registration",
@@ -429,4 +433,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:12:31</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=668a687f6c651910afc2a298227d345d"/>
 </record_update>

@@ -14,6 +14,7 @@
         <item_view display_value="All Events Item View">e68a687f3e6519106998553942361ba1</item_view>
         <name>All Events</name>
         <override_context_with_data_item>false</override_context_with_data_item>
+        <parameter_screen/>
         <roles_override>x_snc_volunteeri_0.event_reg.admin,x_snc_volunteeri_0.event_reg.attendee,x_snc_volunteeri_0.event_reg.organizer</roles_override>
         <segments_height>small</segments_height>
         <segments_min_width>small</segments_min_width>

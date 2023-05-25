@@ -1309,8 +1309,11 @@
   "inputValues" : { },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -1328,6 +1331,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>event_list</name>
+        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[{"message":"Tagline","comment":""},{"message":"Footer Label","comment":""},{"message":"Browse all","comment":""},{"message":"Content Value2","comment":""},{"message":"Card Heading","comment":""},{"message":"Content Value1","comment":""},{"message":"Dropdown Item 1","comment":""},{"message":"Dropdown Item 2","comment":""},{"message":"Footer Value","comment":""},{"message":"Security","comment":""},{"message":"Hardware","comment":""},{"message":"Search","comment":""},{"message":"New Events","comment":""},{"message":"Wifi and remote access","comment":""},{"message":"Content Label1","comment":""},{"message":"Software","comment":""},{"message":"Content Label2","comment":""}]</required_translations>
         <root_component/>
@@ -1348,4 +1352,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-09-02 00:12:30</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=a68a687fa96519102a80a1c14bfd575d"/>
 </record_update>
